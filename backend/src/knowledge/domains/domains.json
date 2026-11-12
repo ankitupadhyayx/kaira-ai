@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Domain Taxonomy Dataset",
+  "domains": [
+    { "id": "LEADERSHIP", "name": "Leadership & Management", "description": "Executive leadership, founders, and department heads" },
+    { "id": "COMPANY", "name": "Company Profile & Overview", "description": "Company history, background, locations, awards, and clients" },
+    { "id": "SERVICE", "name": "Software & Engineering Services", "description": "Technical development, AI, Cloud, Blockchain, Mobile, and Web engineering" },
+    { "id": "CAREER", "name": "Careers & Recruitment", "description": "Job openings, application procedures, internships, and training" },
+    { "id": "HR", "name": "Human Resources", "description": "Employee policies, leave management, work culture, and guidelines" },
+    { "id": "SECURITY", "name": "Security & Compliance", "description": "Data privacy, security standards, ISO compliance, and security audits" },
+    { "id": "CONTACT", "name": "Contact & Sales", "description": "Email, phone support, office addresses, and inquiry channels" },
+    { "id": "PRICING", "name": "Pricing & Estimation", "description": "Rates, project estimates, quotations, and engagement models" },
+    { "id": "SUPPORT", "name": "Technical Support", "description": "Helpdesk, ticketing, issue reporting, and customer care" },
+    { "id": "LEGAL", "name": "Legal & Terms", "description": "Terms of service, NDAs, contracts, and SLAs" },
+    { "id": "FAQ", "name": "Frequently Asked Questions", "description": "General FAQs and common operational inquiries" }
+  ]
+}

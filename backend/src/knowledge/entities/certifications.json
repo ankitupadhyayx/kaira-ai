@@ -1,0 +1,27 @@
+{
+  "domain": "certifications",
+  "version": "1.0.0",
+  "description": "Professional engineering certifications and compliance standards",
+  "entities": [
+    {
+      "entityId": "ENT_CERT_ISO",
+      "type": "certifications",
+      "name": "ISO 27001",
+      "canonical": "iso 27001",
+      "aliases": ["iso 27001", "iso27001", "iso certification"],
+      "category": "compliance",
+      "attributes": { "standard": "information security" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_CERT_AWS_SOL",
+      "type": "certifications",
+      "name": "AWS Certified Solutions Architect",
+      "canonical": "aws certified solutions architect",
+      "aliases": ["aws certified solutions architect", "aws architect cert"],
+      "category": "cloud-cert",
+      "attributes": { "vendor": "aws" },
+      "confidence": 1.0
+    }
+  ]
+}

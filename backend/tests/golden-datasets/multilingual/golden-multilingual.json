@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "multilingual",
+  "description": "Golden evaluation dataset for multilingual script queries",
+  "entries": [
+    {
+      "id": "MULTI_LANG_001",
+      "input": "नमस्ते who is the CEO",
+      "expectedNormalizedQuery": "hello who is the ceo",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "edge",
+      "queryStyle": "mixed",
+      "tags": ["multilingual", "hindi"]
+    }
+  ]
+}

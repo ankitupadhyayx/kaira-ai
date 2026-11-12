@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "type": "synonyms",
+  "description": "Enterprise Synonym Knowledge Base Dataset",
+  "entries": [
+    { "canonical": "chief executive officer", "synonyms": ["ceo", "group ceo", "founding director", "company president", "managing director", "md"], "category": "leadership" },
+    { "canonical": "chief technology officer", "synonyms": ["cto", "head of tech", "head of engineering", "vp engineering", "technical director"], "category": "leadership" },
+    { "canonical": "artificial intelligence", "synonyms": ["ai", "cognitive computing", "neural network tech", "smart automation"], "category": "technology" },
+    { "canonical": "machine learning", "synonyms": ["ml", "deep learning", "predictive modeling", "algorithmic learning"], "category": "technology" },
+    { "canonical": "blockchain", "synonyms": ["web3", "distributed ledger", "smart contracts", "crypto tech", "decentralized tech"], "category": "technology" },
+    { "canonical": "cloud computing", "synonyms": ["cloud", "cloud infrastructure", "hosted services", "cloud architecture"], "category": "cloud" },
+    { "canonical": "mobile app", "synonyms": ["mobile application", "smartphone app", "ios app", "android app", "native app"], "category": "technology" },
+    { "canonical": "web development", "synonyms": ["website development", "web app dev", "fullstack web dev", "frontend dev"], "category": "technology" },
+    { "canonical": "human resources", "synonyms": ["hr", "people team", "talent acquisition", "people operations", "recruitment"], "category": "hr" },
+    { "canonical": "leave policy", "synonyms": ["vacation policy", "time off policy", "annual leave policy", "sick leave policy"], "category": "hr" },
+    { "canonical": "pricing", "synonyms": ["cost", "quotation", "quote", "budget", "rates", "fees", "estimate"], "category": "pricing" }
+  ]
+}

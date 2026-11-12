@@ -1,0 +1,1838 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Comprehensive Intent Definitions Dataset",
+  "intents": [
+    {
+      "id": "LEADERSHIP_INFO",
+      "domain": "LEADERSHIP",
+      "category": "Leadership & Executive Team",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "ceo"
+        ],
+        [
+          "founder"
+        ],
+        [
+          "owner"
+        ],
+        [
+          "leadership"
+        ],
+        [
+          "management"
+        ],
+        [
+          "executive"
+        ],
+        [
+          "chief",
+          "executive"
+        ],
+        [
+          "chief",
+          "executive",
+          "officer"
+        ],
+        [
+          "boss"
+        ],
+        [
+          "who",
+          "runs"
+        ],
+        [
+          "who",
+          "started"
+        ],
+        [
+          "who",
+          "founded"
+        ],
+        [
+          "who",
+          "created"
+        ],
+        [
+          "who",
+          "owns"
+        ],
+        [
+          "board"
+        ],
+        [
+          "directors"
+        ],
+        [
+          "company",
+          "head"
+        ],
+        [
+          "lead",
+          "team"
+        ],
+        [
+          "top",
+          "management"
+        ],
+        [
+          "management",
+          "team"
+        ],
+        [
+          "executive",
+          "team"
+        ],
+        [
+          "leadership",
+          "team"
+        ],
+        [
+          "founding",
+          "person"
+        ],
+        [
+          "ownership"
+        ],
+        [
+          "founding"
+        ],
+        [
+          "founder name"
+        ],
+        [
+          "ceo name"
+        ],
+        [
+          "owner name"
+        ],
+        [
+          "cto"
+        ],
+        [
+          "cfo"
+        ],
+        [
+          "coo"
+        ],
+        [
+          "cmo"
+        ],
+        [
+          "cio"
+        ],
+        [
+          "chro"
+        ]
+      ],
+      "optionalTokens": [
+        "jagdish",
+        "harsh",
+        "mobiloitte",
+        "head",
+        "president",
+        "group",
+        "team",
+        "info",
+        "details",
+        "name"
+      ],
+      "negativeTokens": [
+        "product",
+        "service",
+        "apply",
+        "career",
+        "resume",
+        "price",
+        "pricing"
+      ],
+      "relatedIntents": [
+        "COMPANY_PROFILE",
+        "COMPANY.LOCATION"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Jagdish Harsh is the Founder & Group CEO of Mobiloitte, leading global corporate strategy and software engineering operations since founding the company in 2004.",
+      "metadata": {
+        "aliases": [
+          "chief executive officer",
+          "group ceo",
+          "founding director",
+          "company head",
+          "owner",
+          "leadership team",
+          "executive team",
+          "management team"
+        ],
+        "synonyms": [
+          "head of company",
+          "company president",
+          "managing director",
+          "proprietor"
+        ],
+        "abbreviations": [
+          "ceo",
+          "cto",
+          "coo",
+          "cfo",
+          "cmo",
+          "cio",
+          "chro",
+          "md"
+        ],
+        "acronyms": [
+          "CEO",
+          "CTO",
+          "COO",
+          "CFO",
+          "CMO",
+          "CIO",
+          "CHRO",
+          "MD"
+        ],
+        "commonTypos": [
+          "ceoo",
+          "ceeo",
+          "ceo naem",
+          "fouder",
+          "foundr",
+          "foundar",
+          "founderr",
+          "leadrship",
+          "ledership",
+          "mangement",
+          "managment",
+          "executve"
+        ],
+        "hinglishVariants": [
+          "ceo kaun hai",
+          "company ka founder kaun hai",
+          "owner ka naam",
+          "mobiloitte ka owner",
+          "ceo name batao",
+          "founder name batao",
+          "leadership dikhao"
+        ],
+        "exampleUtterances": [
+          "Who is the CEO of Mobiloitte?",
+          "Tell me about Jagdish Harsh",
+          "Who leads engineering at Mobiloitte?"
+        ]
+      }
+    },
+    {
+      "id": "COMPANY_PROFILE",
+      "domain": "COMPANY",
+      "category": "Company Profile",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "profile"
+        ],
+        [
+          "overview"
+        ],
+        [
+          "introduction"
+        ],
+        [
+          "background"
+        ],
+        [
+          "company"
+        ],
+        [
+          "mobiloitte"
+        ],
+        [
+          "who",
+          "are",
+          "you"
+        ],
+        [
+          "what",
+          "is",
+          "mobiloitte"
+        ],
+        [
+          "who",
+          "is",
+          "mobiloitte"
+        ],
+        [
+          "what",
+          "does",
+          "mobiloitte",
+          "do"
+        ],
+        [
+          "tell",
+          "me",
+          "about",
+          "company"
+        ],
+        [
+          "tell",
+          "about",
+          "company"
+        ],
+        [
+          "company",
+          "profile"
+        ],
+        [
+          "company",
+          "overview"
+        ],
+        [
+          "company",
+          "info"
+        ],
+        [
+          "company",
+          "information"
+        ],
+        [
+          "company",
+          "details"
+        ],
+        [
+          "company",
+          "introduction"
+        ],
+        [
+          "company",
+          "background"
+        ],
+        [
+          "business",
+          "overview"
+        ],
+        [
+          "organization",
+          "overview"
+        ],
+        [
+          "enterprise",
+          "profile"
+        ],
+        [
+          "about",
+          "organization"
+        ],
+        [
+          "about",
+          "company"
+        ],
+        [
+          "about",
+          "mobiloitte"
+        ],
+        [
+          "introduce",
+          "mobiloitte"
+        ],
+        [
+          "company background"
+        ],
+        [
+          "business overview"
+        ],
+        [
+          "organization overview"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "organization",
+        "enterprise",
+        "solutions",
+        "engineering",
+        "details",
+        "info"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "leadership",
+        "management",
+        "executive",
+        "executives",
+        "directors",
+        "board",
+        "pricing",
+        "price",
+        "services",
+        "service",
+        "offerings",
+        "solutions",
+        "capabilities",
+        "expertise",
+        "specialization",
+        "develop",
+        "build",
+        "careers",
+        "career",
+        "job",
+        "jobs",
+        "internship",
+        "hiring",
+        "recruitment",
+        "apply",
+        "join",
+        "vacancy",
+        "vacancies",
+        "openings",
+        "contact",
+        "office",
+        "offices",
+        "location",
+        "locations",
+        "address",
+        "headquarters",
+        "hq",
+        "branches",
+        "abu",
+        "dhabi",
+        "dubai",
+        "london",
+        "singapore",
+        "delhi",
+        "okhla",
+        "boston",
+        "uae",
+        "uk",
+        "usa",
+        "certifications",
+        "certification",
+        "certified",
+        "iso",
+        "cmmi",
+        "gdpr",
+        "hipaa",
+        "awards",
+        "award",
+        "recognition",
+        "accolades",
+        "honors",
+        "clutch",
+        "goodfirms"
+      ],
+      "relatedIntents": [
+        "LEADERSHIP.CEO",
+        "SERVICE.AI",
+        "COMPANY.LOCATION"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte is an AI-first software engineering company established in 2004.\n• 20+ years of experience & 500+ software engineers\n• Global offices in India (HQ), USA, UK, UAE, and Singapore\n• Website: https://www.mobiloitte.com",
+      "metadata": {
+        "aliases": [
+          "what is mobiloitte",
+          "tell me about mobiloitte",
+          "about mobiloitte",
+          "about company",
+          "company",
+          "company info",
+          "company information",
+          "company profile",
+          "company overview",
+          "mobiloitte profile",
+          "mobiloitte overview",
+          "introduce mobiloitte",
+          "about your company",
+          "who is mobiloitte",
+          "what does mobiloitte do",
+          "tell me about your company",
+          "give company introduction",
+          "company introduction",
+          "company details",
+          "company background",
+          "business overview",
+          "organization overview",
+          "enterprise profile",
+          "about organization",
+          "who are you",
+          "mobiloite profile",
+          "company profle",
+          "compny overview",
+          "introduce mobiloite",
+          "abt company",
+          "tell about mobiloitte"
+        ],
+        "exampleUtterances": [
+          "what is mobiloitte",
+          "tell me about mobiloitte",
+          "about mobiloitte",
+          "about company",
+          "company",
+          "company info",
+          "company information",
+          "company profile",
+          "company overview",
+          "mobiloitte profile",
+          "mobiloitte overview",
+          "introduce mobiloitte",
+          "about your company",
+          "who is mobiloitte",
+          "what does mobiloitte do",
+          "tell me about your company",
+          "give company introduction",
+          "company introduction",
+          "company details",
+          "company background",
+          "business overview",
+          "organization overview",
+          "enterprise profile",
+          "about organization",
+          "who are you"
+        ]
+      }
+    },
+    {
+      "id": "HEADQUARTERS",
+      "domain": "COMPANY",
+      "category": "Corporate Headquarters & Main Office",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "headquarters"
+        ],
+        [
+          "headquarter"
+        ],
+        [
+          "hq"
+        ],
+        [
+          "head",
+          "office"
+        ],
+        [
+          "corporate",
+          "office"
+        ],
+        [
+          "main",
+          "office"
+        ],
+        [
+          "registered",
+          "office"
+        ],
+        [
+          "headquarters_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "delhi",
+        "india"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "INDIA_OFFICE",
+        "OFFICE_ADDRESS",
+        "GLOBAL_OFFICES"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Corporate Headquarters:\nPocket D, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020, India.\n• Phone: +91-9999525501 | +91-11-49998888\n• Email: sales@mobiloitte.com"
+    },
+    {
+      "id": "INDIA_OFFICE",
+      "domain": "COMPANY",
+      "category": "India Office & Engineering Hub",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "india",
+          "office"
+        ],
+        [
+          "delhi",
+          "office"
+        ],
+        [
+          "new",
+          "delhi",
+          "office"
+        ],
+        [
+          "okhla",
+          "office"
+        ],
+        [
+          "india",
+          "headquarters"
+        ],
+        [
+          "indian",
+          "office"
+        ],
+        [
+          "india_office_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "noida",
+        "gurgaon"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "HEADQUARTERS",
+        "OFFICE_ADDRESS",
+        "GLOBAL_OFFICES"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "India Office & Development Center\n\nMobiloitte's main engineering hub and registered headquarters is located in New Delhi, India.\n\nHighlights:\n• Address: Pocket D, Okhla Phase I, New Delhi, Delhi 110020, India\n• 500+ Software Engineers & Tech Leads\n• AI, Mobile, Web, Cloud, and Blockchain Labs"
+    },
+    {
+      "id": "USA_OFFICE",
+      "domain": "COMPANY",
+      "category": "USA Office & North America Hub",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "usa",
+          "office"
+        ],
+        [
+          "us",
+          "office"
+        ],
+        [
+          "america",
+          "office"
+        ],
+        [
+          "new",
+          "york",
+          "office"
+        ],
+        [
+          "california",
+          "office"
+        ],
+        [
+          "usa_office_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "client",
+        "relations"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "GLOBAL_OFFICES",
+        "OFFICE_OVERVIEW"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "USA Regional Office\n\nMobiloitte serves North American clients through its USA business development and consulting offices.\n\nHighlights:\n• North America Client Relations & Business Consulting\n• Onshore Technical Architecture & Project Management\n• Serving Enterprise Clients Across North America"
+    },
+    {
+      "id": "UK_OFFICE",
+      "domain": "COMPANY",
+      "category": "UK Office & European Hub",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "uk",
+          "office"
+        ],
+        [
+          "london",
+          "office"
+        ],
+        [
+          "britain",
+          "office"
+        ],
+        [
+          "uk_office_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "europe"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "GLOBAL_OFFICES",
+        "OFFICE_OVERVIEW"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "UK Regional Office\n\nMobiloitte operates a regional business and consulting presence in London, United Kingdom.\n\nHighlights:\n• European Client Engagement & Technology Consulting\n• UK & EU Enterprise Project Delivery\n• London Operations Hub"
+    },
+    {
+      "id": "UAE_OFFICE",
+      "domain": "COMPANY",
+      "category": "UAE & Middle East Office",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "uae"
+        ],
+        [
+          "dubai"
+        ],
+        [
+          "abu"
+        ],
+        [
+          "dhabi"
+        ],
+        [
+          "uae_office_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "middle",
+        "east"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "GLOBAL_OFFICES",
+        "OFFICE_OVERVIEW"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "UAE & Middle East Regional Office\n\nMobiloitte supports Middle Eastern enterprise digital transformation through its UAE office in Dubai.\n\nHighlights:\n• Dubai Enterprise Client Engagement\n• Fintech, Blockchain & Smart City Solutions\n• Middle East & GCC Region Delivery"
+    },
+    {
+      "id": "SINGAPORE_OFFICE",
+      "domain": "COMPANY",
+      "category": "Singapore & APAC Office",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "singapore",
+          "office"
+        ],
+        [
+          "singapore",
+          "branch"
+        ],
+        [
+          "singapore_office_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "apac",
+        "asia"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "GLOBAL_OFFICES",
+        "OFFICE_OVERVIEW"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Singapore & APAC Regional Office\n\nMobiloitte serves Asia-Pacific enterprises and tech startups from its Singapore regional hub.\n\nHighlights:\n• Southeast Asia & APAC Regional Operations\n• Web3, FinTech & Enterprise Solutions\n• Singapore Client Engagement Hub"
+    },
+    {
+      "id": "GLOBAL_OFFICES",
+      "domain": "COMPANY",
+      "category": "Global Offices & Branches",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "branches"
+        ],
+        [
+          "branch"
+        ],
+        [
+          "branch",
+          "office"
+        ],
+        [
+          "branch",
+          "offices"
+        ],
+        [
+          "global",
+          "offices"
+        ],
+        [
+          "international",
+          "offices"
+        ],
+        [
+          "worldwide",
+          "offices"
+        ],
+        [
+          "all",
+          "offices"
+        ],
+        [
+          "office",
+          "network"
+        ],
+        [
+          "global_offices_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "locations"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "OFFICE_OVERVIEW",
+        "HEADQUARTERS",
+        "INDIA_OFFICE"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Global Offices:\n• Corporate HQ: New Delhi, India\n• Regional Hubs: USA (Boston), UK (London), UAE (Dubai), and Singapore\n• Website: https://www.mobiloitte.com"
+    },
+    {
+      "id": "OFFICE_ADDRESS",
+      "domain": "COMPANY",
+      "category": "Office Address & Registered Details",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "address"
+        ],
+        [
+          "office",
+          "address"
+        ],
+        [
+          "company",
+          "address"
+        ],
+        [
+          "registered",
+          "address"
+        ],
+        [
+          "office_address_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "noida",
+        "delhi",
+        "okhla"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "HEADQUARTERS",
+        "INDIA_OFFICE",
+        "CONTACT_LOCATION"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Corporate Headquarters:\nPocket D, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020, India.\n• Phone: +91-9999525501 | +91-11-49998888\n• Email: sales@mobiloitte.com"
+    },
+    {
+      "id": "CONTACT_LOCATION",
+      "domain": "COMPANY",
+      "category": "Contact Location & Directions",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "contact",
+          "office"
+        ],
+        [
+          "office",
+          "details"
+        ],
+        [
+          "contact_location_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "location",
+        "email",
+        "phone"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job"
+      ],
+      "relatedIntents": [
+        "OFFICE_OVERVIEW",
+        "HEADQUARTERS",
+        "OFFICE_ADDRESS"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Official Contacts:\n• Sales: sales@mobiloitte.com | +91-9999525501\n• Support: support@mobiloitte.com | +91-11-49998888\n• HR & Careers: hr@mobiloitte.com\n• Headquarters: Pocket D, Okhla Phase I, New Delhi, India"
+    },
+    {
+      "id": "OFFICE_OVERVIEW",
+      "domain": "COMPANY",
+      "category": "Office Overview & Locations",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "office"
+        ],
+        [
+          "offices"
+        ],
+        [
+          "location"
+        ],
+        [
+          "locations"
+        ],
+        [
+          "office_overview_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "where",
+        "located"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "price",
+        "pricing",
+        "cost",
+        "career",
+        "job",
+        "india",
+        "usa",
+        "us",
+        "uk",
+        "uae",
+        "singapore",
+        "delhi",
+        "okhla",
+        "london",
+        "dubai",
+        "main",
+        "head",
+        "corporate",
+        "registered",
+        "all",
+        "global",
+        "international",
+        "worldwide",
+        "branches",
+        "branch",
+        "address",
+        "number",
+        "phone"
+      ],
+      "relatedIntents": [
+        "HEADQUARTERS",
+        "GLOBAL_OFFICES",
+        "INDIA_OFFICE"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Global Offices:\n• Corporate HQ: New Delhi, India\n• Regional Hubs: USA (Boston), UK (London), UAE (Dubai), and Singapore\n• Website: https://www.mobiloitte.com"
+    },
+    {
+      "id": "CAREERS",
+      "domain": "CAREER",
+      "category": "Careers & Employment",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "career"
+        ],
+        [
+          "careers"
+        ],
+        [
+          "employment"
+        ],
+        [
+          "employment",
+          "opportunities"
+        ],
+        [
+          "career",
+          "opportunities"
+        ],
+        [
+          "work",
+          "at",
+          "mobiloitte"
+        ],
+        [
+          "work",
+          "with",
+          "mobiloitte"
+        ],
+        [
+          "join",
+          "mobiloitte"
+        ],
+        [
+          "careers_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "jobs",
+        "opportunities"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "leadership",
+        "management",
+        "price",
+        "pricing",
+        "cost"
+      ],
+      "relatedIntents": [
+        "JOB_APPLICATION",
+        "INTERNSHIPS",
+        "CURRENT_OPENINGS"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Careers:\nExplore open technology roles and engineering positions at Mobiloitte.\n• Careers Portal: https://mobiloitte.com/careers\n• Submit CV: hr@mobiloitte.com"
+    },
+    {
+      "id": "INTERNSHIPS",
+      "domain": "CAREER",
+      "category": "Internships & Training",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "internship"
+        ],
+        [
+          "internships"
+        ],
+        [
+          "intern"
+        ],
+        [
+          "summer",
+          "internship"
+        ],
+        [
+          "winter",
+          "internship"
+        ],
+        [
+          "industrial",
+          "training"
+        ],
+        [
+          "training",
+          "program"
+        ],
+        [
+          "graduate",
+          "trainee"
+        ],
+        [
+          "fresher",
+          "internship"
+        ],
+        [
+          "internships_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "java",
+        "python",
+        "react",
+        "node",
+        "ai",
+        "ml",
+        "web",
+        "fullstack"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "leadership",
+        "management",
+        "price",
+        "pricing",
+        "cost"
+      ],
+      "relatedIntents": [
+        "CAREERS",
+        "JOB_APPLICATION"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Internships:\nIndustrial training and internship programs for students and graduates.\n• Apply via Email: hr@mobiloitte.com\n• Careers Portal: https://mobiloitte.com/careers"
+    },
+    {
+      "id": "JOB_APPLICATION",
+      "domain": "CAREER",
+      "category": "Job Application & Resume Submission",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "apply"
+        ],
+        [
+          "application"
+        ],
+        [
+          "apply",
+          "job"
+        ],
+        [
+          "apply",
+          "now"
+        ],
+        [
+          "send",
+          "resume"
+        ],
+        [
+          "submit",
+          "resume"
+        ],
+        [
+          "career",
+          "portal"
+        ],
+        [
+          "how",
+          "to",
+          "apply"
+        ],
+        [
+          "where",
+          "can",
+          "i",
+          "apply"
+        ],
+        [
+          "job_application_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "resume",
+        "cv",
+        "hr",
+        "email"
+      ],
+      "negativeTokens": [
+        "ceo",
+        "founder",
+        "owner",
+        "leadership",
+        "management",
+        "price",
+        "pricing",
+        "cost"
+      ],
+      "relatedIntents": [
+        "CAREERS",
+        "CURRENT_OPENINGS"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Careers:\nExplore open technology roles and engineering positions at Mobiloitte.\n• Careers Portal: https://mobiloitte.com/careers\n• Submit CV: hr@mobiloitte.com"
+    },
+    {
+      "id": "GENERAL_CONTACT",
+      "domain": "CONTACT",
+      "category": "General Contact & Reach",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "contact"
+        ],
+        [
+          "contact",
+          "us"
+        ],
+        [
+          "get",
+          "touch"
+        ],
+        [
+          "reach",
+          "mobiloitte"
+        ],
+        [
+          "general_contact_intent"
+        ],
+        [
+          "reach"
+        ],
+        [
+          "touch"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "company",
+        "team"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume",
+        "pricing",
+        "cost"
+      ],
+      "relatedIntents": [
+        "SALES_CONTACT",
+        "OFFICE_PHONE",
+        "EMAIL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Official Contacts:\n• Sales: sales@mobiloitte.com | +91-9999525501\n• Support: support@mobiloitte.com | +91-11-49998888\n• HR & Careers: hr@mobiloitte.com\n• Headquarters: Pocket D, Okhla Phase I, New Delhi, India"
+    },
+    {
+      "id": "SALES_CONTACT",
+      "domain": "CONTACT",
+      "category": "Sales & Business Development",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "sales"
+        ],
+        [
+          "contact",
+          "sales"
+        ],
+        [
+          "talk",
+          "sales"
+        ],
+        [
+          "sales",
+          "team"
+        ],
+        [
+          "sales",
+          "support"
+        ],
+        [
+          "sales_contact_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "inquiry",
+        "business"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume"
+      ],
+      "relatedIntents": [
+        "BUSINESS_INQUIRY",
+        "PROJECT_DISCUSSION",
+        "EMAIL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Sales & Business Inquiries\n\nOur sales team can assist with project discussions, quotations, consultations, and software development requirements.\n\nHighlights:\n• Sales Email: sales@mobiloitte.com\n• Sales Phone: +91-9999525501\n• Business Hours: Monday – Friday, 9:30 AM – 6:30 PM IST"
+    },
+    {
+      "id": "TECHNICAL_SUPPORT",
+      "domain": "CONTACT",
+      "category": "Technical & Customer Support",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "technical",
+          "support"
+        ],
+        [
+          "customer",
+          "support"
+        ],
+        [
+          "support",
+          "team"
+        ],
+        [
+          "support_email"
+        ],
+        [
+          "report",
+          "issue"
+        ],
+        [
+          "bug",
+          "report"
+        ],
+        [
+          "support_intent"
+        ],
+        [
+          "support"
+        ],
+        [
+          "bug"
+        ],
+        [
+          "issue"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "help",
+        "client"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume",
+        "sales"
+      ],
+      "relatedIntents": [
+        "CUSTOMER_SUPPORT",
+        "CLIENT_SUPPORT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Technical Support & Assistance\n\nFor technical issues, product support, maintenance, or client assistance, contact our support desk.\n\nHighlights:\n• Support Email: support@mobiloitte.com\n• Support Line: +91-11-49998888"
+    },
+    {
+      "id": "CUSTOMER_SUPPORT",
+      "domain": "CONTACT",
+      "category": "Customer Care & Support",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "customer",
+          "care"
+        ],
+        [
+          "helpline"
+        ],
+        [
+          "customer_support_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "assistance"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume",
+        "sales"
+      ],
+      "relatedIntents": [
+        "TECHNICAL_SUPPORT",
+        "CLIENT_SUPPORT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Customer Support & Client Care\n\nOur customer support team provides dedicated assistance for active project clients and account inquiries.\n\nHighlights:\n• Support Email: support@mobiloitte.com\n• Phone: +91-11-49998888"
+    },
+    {
+      "id": "HR_CONTACT",
+      "domain": "CONTACT",
+      "category": "HR & Talent Acquisition Contact",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "hr",
+          "email"
+        ],
+        [
+          "hr",
+          "contact"
+        ],
+        [
+          "recruitment",
+          "contact"
+        ],
+        [
+          "career",
+          "contact"
+        ],
+        [
+          "hr_contact_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "jobs",
+        "careers"
+      ],
+      "negativeTokens": [
+        "sales",
+        "pricing",
+        "quote"
+      ],
+      "relatedIntents": [
+        "CAREERS",
+        "JOB_APPLICATION"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "HR & Talent Acquisition Contact\n\nConnect with Mobiloitte HR for career inquiries, job applications, recruitment, and campus drives.\n\nHighlights:\n• HR Email: hr@mobiloitte.com\n• Careers Portal: mobiloitte.com/careers"
+    },
+    {
+      "id": "OFFICE_PHONE",
+      "domain": "CONTACT",
+      "category": "Office Phone Numbers",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "phone"
+        ],
+        [
+          "phone",
+          "number"
+        ],
+        [
+          "office",
+          "number"
+        ],
+        [
+          "mobile",
+          "number"
+        ],
+        [
+          "contact",
+          "number"
+        ],
+        [
+          "office_phone_intent"
+        ],
+        [
+          "helpline"
+        ],
+        [
+          "number"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "call",
+        "hotline"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume"
+      ],
+      "relatedIntents": [
+        "EMAIL_CONTACT",
+        "GENERAL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Phone Hotlines:\n• Sales Hotline: +91-9999525501\n• Corporate HQ: +91-11-49998888\n• USA Office: +1-781-808-3488\n• UK Office: +44-203-287-9099"
+    },
+    {
+      "id": "EMAIL_CONTACT",
+      "domain": "CONTACT",
+      "category": "Email Contact Directory",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "email"
+        ],
+        [
+          "email",
+          "address"
+        ],
+        [
+          "official",
+          "email"
+        ],
+        [
+          "sales",
+          "email"
+        ],
+        [
+          "business",
+          "email"
+        ],
+        [
+          "email_contact_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "mail",
+        "contact"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume"
+      ],
+      "relatedIntents": [
+        "OFFICE_PHONE",
+        "GENERAL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Email Directory:\n• Sales & Business: sales@mobiloitte.com\n• Technical Support: support@mobiloitte.com\n• HR & Careers: hr@mobiloitte.com"
+    },
+    {
+      "id": "HEADQUARTERS_CONTACT",
+      "domain": "CONTACT",
+      "category": "Headquarters Contact Channels",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "head office",
+          "contact"
+        ],
+        [
+          "headquarters",
+          "contact"
+        ],
+        [
+          "headquarters_contact_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "delhi",
+        "india"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume"
+      ],
+      "relatedIntents": [
+        "HEADQUARTERS",
+        "GENERAL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Corporate Headquarters:\nPocket D, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020, India.\n• Phone: +91-9999525501 | +91-11-49998888\n• Email: sales@mobiloitte.com"
+    },
+    {
+      "id": "CONTACT_OVERVIEW",
+      "domain": "CONTACT",
+      "category": "Contact Overview",
+      "priority": 1,
+      "confidenceRules": {
+        "baseConfidence": 0.95,
+        "requiredTokenMatchBonus": 0.05,
+        "optionalTokenMatchBonus": 0,
+        "negativeTokenPenalty": 0.5,
+        "exactMatchBonus": 0.1,
+        "minConfidenceThreshold": 0.6
+      },
+      "requiredTokens": [
+        [
+          "contact",
+          "information"
+        ],
+        [
+          "contact",
+          "overview"
+        ],
+        [
+          "contact_overview_intent"
+        ]
+      ],
+      "optionalTokens": [
+        "mobiloitte",
+        "details",
+        "channels"
+      ],
+      "negativeTokens": [
+        "career",
+        "job",
+        "apply",
+        "resume"
+      ],
+      "relatedIntents": [
+        "GENERAL_CONTACT",
+        "SALES_CONTACT",
+        "EMAIL_CONTACT"
+      ],
+      "followUpSuggestions": [],
+      "responseTemplate": "Mobiloitte Official Contacts:\n• Sales: sales@mobiloitte.com | +91-9999525501\n• Support: support@mobiloitte.com | +91-11-49998888\n• HR & Careers: hr@mobiloitte.com\n• Headquarters: Pocket D, Okhla Phase I, New Delhi, India"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Greeting regex patterns and prefix/suffix rules",
+  "patterns": [
+    {
+      "regex": "^(hi|hello|hey|greetings|good morning|good afternoon|good evening|good night|namaste|ram ram|salaam|vanakkam|kem cho)\\b",
+      "category": "General"
+    },
+    {
+      "regex": "\\b(hi|hello|hey|good morning|good afternoon|good evening|good night|namaste|ram ram|salaam|vanakkam|kem cho)$",
+      "category": "General"
+    }
+  ]
+}

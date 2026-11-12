@@ -1,0 +1,37 @@
+{
+  "domain": "industries",
+  "version": "1.0.0",
+  "description": "Business verticals and target industries",
+  "entities": [
+    {
+      "entityId": "ENT_IND_FINTECH",
+      "type": "industries",
+      "name": "FinTech & Banking",
+      "canonical": "fintech",
+      "aliases": ["fintech", "financial technology", "banking", "finance"],
+      "category": "vertical",
+      "attributes": { "sector": "finance" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_IND_HEALTHCARE",
+      "type": "industries",
+      "name": "Healthcare & HealthTech",
+      "canonical": "healthcare",
+      "aliases": ["healthcare", "healthtech", "medical", "pharma"],
+      "category": "vertical",
+      "attributes": { "sector": "health" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_IND_RETAIL",
+      "type": "industries",
+      "name": "E-Commerce & Retail",
+      "canonical": "e-commerce",
+      "aliases": ["e-commerce", "ecommerce", "retail", "shopping apps"],
+      "category": "vertical",
+      "attributes": { "sector": "commerce" },
+      "confidence": 1.0
+    }
+  ]
+}

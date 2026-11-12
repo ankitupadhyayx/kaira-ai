@@ -1,0 +1,115 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_SGP_001",
+      "slug": "singapore-regional-office-marina-bay",
+      "domain": "locations",
+      "category": "regional-office",
+      "subcategory": "singapore"
+    },
+    "content": {
+      "title": "Mobiloitte Singapore Regional Office — Marina Bay",
+      "short_summary": "Marina Bay regional hub serving South-East Asia (APAC) enterprise accounts.",
+      "detailed_description": "Mobiloitte's Singapore Regional Office is situated in Marina Bay, Singapore. The Singapore office acts as Mobiloitte's APAC regional hub delivering enterprise AI, FinTech, and IoT software engineering services.",
+      "highlights": [
+        "Location: Marina Bay, Singapore",
+        "Coverage: Asia-Pacific & South-East Asia (SGT Time Zone)",
+        "Specializations: APAC Enterprise Sales, AI, Web3 & FinTech"
+      ],
+      "examples": [
+        "Does Mobiloitte have a Singapore office?",
+        "Mobiloitte Singapore office location"
+      ],
+      "notes": ["Singapore location record"]
+    },
+    "search": {
+      "aliases": [
+        "singapore office",
+        "sg office",
+        "apac office",
+        "mobiloitte singapore",
+        "asia office"
+      ],
+      "synonyms": [
+        "apac hub",
+        "singapore branch"
+      ],
+      "abbreviations": [
+        "sgp",
+        "sg"
+      ],
+      "keywords": [
+        "singapore",
+        "marina",
+        "bay",
+        "apac",
+        "asia",
+        "sgt"
+      ],
+      "search_phrases": [
+        "does mobiloitte have an office in singapore",
+        "mobiloitte singapore office location"
+      ],
+      "common_user_questions": [
+        "Where is Mobiloitte's Singapore office?"
+      ],
+      "misspellings": [
+        "singapor",
+        "singapre"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka singapore me office hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Global Offices Directory",
+        "Head Office India"
+      ],
+      "related_domains": [
+        "locations"
+      ],
+      "related_ids": [
+        "KND_LOC_ALL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "singapore",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "singapore"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

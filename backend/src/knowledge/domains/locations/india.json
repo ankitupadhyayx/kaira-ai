@@ -1,0 +1,137 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_HQ_001",
+      "slug": "head-office-new-delhi-india",
+      "domain": "locations",
+      "category": "headquarters",
+      "subcategory": "india"
+    },
+    "content": {
+      "title": "Mobiloitte Global Head Office — New Delhi, India",
+      "short_summary": "Pocket D, Okhla Phase I, D-115, New Delhi, Delhi 110020.",
+      "detailed_description": "Mobiloitte's Global Corporate Headquarters is located at Pocket D, Okhla Phase I, D-115, New Delhi, Delhi 110020. This state-of-the-art facility houses 500+ software engineers, AI researchers, blockchain architects, UI/UX designers, and executive management. Nearby landmarks include Okhla Railway Station and Crowne Plaza Today Okhla.",
+      "highlights": [
+        "Address: Pocket D, Okhla Phase I, D-115, New Delhi, Delhi 110020, India",
+        "Phone Hotline: +91-9999525501 / +91-11-49998888",
+        "Operating Hours: Monday – Friday, 9:30 AM – 6:30 PM IST",
+        "Nearby Landmarks: Okhla Railway Station, Crowne Plaza Okhla, NSIC Okhla Metro",
+        "Google Maps Pin: https://maps.google.com/?q=Mobiloitte+Okhla+Phase+1"
+      ],
+      "examples": [
+        "Where is Mobiloitte's head office?",
+        "What is the address of Mobiloitte Delhi office?",
+        "Mobiloitte Okhla office location"
+      ],
+      "notes": ["Master India HQ location record"]
+    },
+    "search": {
+      "aliases": [
+        "head office",
+        "global hq",
+        "delhi office",
+        "okhla office",
+        "mobiloitte head office",
+        "india office"
+      ],
+      "synonyms": [
+        "corporate headquarters",
+        "main office",
+        "primary office"
+      ],
+      "abbreviations": [
+        "hq",
+        "loc"
+      ],
+      "keywords": [
+        "headquarters",
+        "office",
+        "delhi",
+        "okhla",
+        "110020",
+        "pocket d",
+        "d-115",
+        "india"
+      ],
+      "search_phrases": [
+        "where is mobiloitte head office",
+        "mobiloitte delhi office address okhla phase 1"
+      ],
+      "common_user_questions": [
+        "What is the exact address of Mobiloitte head office?",
+        "Where is Mobiloitte located in Delhi?"
+      ],
+      "misspellings": [
+        "okhla",
+        "okla",
+        "delhy",
+        "ohkla"
+      ],
+      "hinglish_variants": [
+        "head office kahan hai",
+        "delhi office ka address kya hai",
+        "okhla me office kidhar hai"
+      ],
+      "plural_forms": [
+        "offices"
+      ],
+      "singular_forms": [
+        "office"
+      ]
+    },
+    "relationships": {
+      "related_topics": [
+        "Corporate Addresses",
+        "Office Hours",
+        "Phone Contacts"
+      ],
+      "related_domains": [
+        "contact",
+        "locations"
+      ],
+      "related_ids": [
+        "KND_CNT_ADDR_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "india",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "hq"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [
+        "https://maps.google.com/?q=Mobiloitte+Okhla+Phase+1"
+      ],
+      "internal_references": [
+        "REF_LOC_HQ_2026"
+      ],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

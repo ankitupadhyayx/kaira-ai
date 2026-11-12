@@ -1,0 +1,47 @@
+{
+  "domain": "frameworks",
+  "version": "1.0.0",
+  "description": "Software frameworks and runtime systems",
+  "entities": [
+    {
+      "entityId": "ENT_FW_NODEJS",
+      "type": "frameworks",
+      "name": "Node.js",
+      "canonical": "node.js",
+      "aliases": ["node.js", "nodejs", "node", "node js"],
+      "category": "backend-runtime",
+      "attributes": { "language": "javascript/typescript" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_FW_REACT",
+      "type": "frameworks",
+      "name": "React.js",
+      "canonical": "react.js",
+      "aliases": ["react", "react.js", "reactjs"],
+      "category": "frontend-framework",
+      "attributes": { "ecosystem": "web" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_FW_SPRING_SECURITY",
+      "type": "frameworks",
+      "name": "Spring Security",
+      "canonical": "spring security",
+      "aliases": ["spring security", "spring sec"],
+      "category": "security-framework",
+      "attributes": { "ecosystem": "java" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_FW_NESTJS",
+      "type": "frameworks",
+      "name": "NestJS",
+      "canonical": "nestjs",
+      "aliases": ["nestjs", "nest js", "nest"],
+      "category": "backend-framework",
+      "attributes": { "language": "typescript" },
+      "confidence": 1.0
+    }
+  ]
+}

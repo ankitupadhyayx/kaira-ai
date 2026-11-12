@@ -1,0 +1,114 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_ORG_001",
+      "slug": "organizational-reporting-structure",
+      "domain": "leadership",
+      "category": "organizational-structure",
+      "subcategory": "hierarchy"
+    },
+    "content": {
+      "title": "Mobiloitte Organizational Reporting Hierarchy",
+      "short_summary": "Agile matrix organizational hierarchy connecting C-Suite, Practice Directors, and Scrum Teams.",
+      "detailed_description": "Mobiloitte operates an agile matrix organizational hierarchy designed for rapid decision-making and project execution. Group CEO & Board $\\rightarrow$ Executive Officers (CTO, COO, CFO) $\\rightarrow$ Practice Directors $\\rightarrow$ Technical Solution Architects $\\rightarrow$ Agile Delivery Pods (Engineers, Designers, QA).",
+      "highlights": [
+        "Group CEO & Board of Directors (Strategic Vision)",
+        "Executive C-Suite (CTO, COO, CFO Operational Oversight)",
+        "Practice Directors (AI, Mobile, Web3, Cloud Practice Centers)",
+        "Agile Scrum Pods (Cross-functional Delivery Teams)"
+      ],
+      "examples": [
+        "What is Mobiloitte's organizational structure?",
+        "Mobiloitte reporting hierarchy"
+      ],
+      "notes": ["Organizational structure record"]
+    },
+    "search": {
+      "aliases": [
+        "organizational structure",
+        "reporting structure",
+        "company hierarchy",
+        "org chart"
+      ],
+      "synonyms": [
+        "corporate hierarchy",
+        "matrix organization"
+      ],
+      "abbreviations": [
+        "org"
+      ],
+      "keywords": [
+        "organizational",
+        "structure",
+        "hierarchy",
+        "matrix",
+        "reporting",
+        "pods"
+      ],
+      "search_phrases": [
+        "what is mobiloitte organizational structure",
+        "mobiloitte reporting hierarchy"
+      ],
+      "common_user_questions": [
+        "What is Mobiloitte's corporate reporting structure?"
+      ],
+      "misspellings": [
+        "orginizational",
+        "hierachy"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka org chart kaisa hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Leadership Overview",
+        "Executive C-Suite"
+      ],
+      "related_domains": [
+        "leadership"
+      ],
+      "related_ids": [
+        "KND_LEAD_OVERVIEW_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "structure"
+      ],
+      "department_tags": [
+        "hr"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/about-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

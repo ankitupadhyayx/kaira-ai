@@ -1,0 +1,30 @@
+{
+  "datasetId": "keyboard_mistakes",
+  "name": "Keyboard Mash & Typo Mistakes Dataset",
+  "version": "1.0.0",
+  "description": "Common keyboard proximity typos and fat-finger mistake corrections",
+  "entries": [
+    { "term": "probem", "canonical": "problem", "confidence": 0.90, "category": "general" },
+    { "term": "soluton", "canonical": "solution", "confidence": 0.90, "category": "general" },
+    { "term": "tewam", "canonical": "team", "confidence": 0.90, "category": "general" },
+    { "term": "servce", "canonical": "service", "confidence": 0.95, "category": "services" },
+    { "term": "servces", "canonical": "services", "confidence": 0.95, "category": "services" },
+    { "term": "pricingg", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "prce", "canonical": "price", "confidence": 0.95, "category": "pricing" },
+    { "term": "caree", "canonical": "career", "confidence": 0.90, "category": "career" },
+    { "term": "jobb", "canonical": "job", "confidence": 0.90, "category": "career" },
+    { "term": "contct", "canonical": "contact", "confidence": 0.95, "category": "contact" },
+    { "term": "emial", "canonical": "email", "confidence": 0.95, "category": "contact" },
+    { "term": "offce", "canonical": "office", "confidence": 0.95, "category": "company" },
+    { "term": "blokchain", "canonical": "blockchain", "confidence": 0.95, "category": "services" },
+    { "term": "machin learnng", "canonical": "machine learning", "confidence": 0.95, "category": "services" },
+    { "term": "pyhton", "canonical": "python", "confidence": 0.95, "category": "engineering" },
+    { "term": "javscript", "canonical": "javascript", "confidence": 0.95, "category": "engineering" },
+    { "term": "sprng boot", "canonical": "spring boot", "confidence": 0.95, "category": "engineering" },
+    { "term": "reactjs", "canonical": "react", "confidence": 0.95, "category": "engineering" },
+    { "term": "node js", "canonical": "node", "confidence": 0.95, "category": "engineering" },
+    { "term": "mobiloite", "canonical": "mobiloitte", "confidence": 0.95, "category": "company" },
+    { "term": "mobilloite", "canonical": "mobiloitte", "confidence": 0.95, "category": "company" }
+  ]
+}
+

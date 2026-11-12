@@ -1,0 +1,33 @@
+{
+  "description": "Regional and multilingual native script greeting definitions",
+  "regional": [
+    { "phrase": "namaste", "language": "Hindi", "category": "Regional" },
+    { "phrase": "namaskar", "language": "Hindi", "category": "Regional" },
+    { "phrase": "ram ram", "language": "Hindi", "category": "Regional" },
+    { "phrase": "jai shree ram", "language": "Hindi", "category": "Regional" },
+    { "phrase": "pranam", "language": "Hindi", "category": "Regional" },
+    { "phrase": "sat sri akal", "language": "Punjabi", "category": "Regional" },
+    { "phrase": "vanakkam", "language": "Tamil", "category": "Regional" },
+    { "phrase": "kem cho", "language": "Gujarati", "category": "Regional" },
+    { "phrase": "salaam", "language": "Arabic", "category": "Regional" },
+    { "phrase": "assalamu alaikum", "language": "Arabic", "category": "Regional" },
+    { "phrase": "khamma ghani", "language": "Rajasthani", "category": "Regional" },
+    { "phrase": "adaab", "language": "Urdu", "category": "Regional" },
+    { "phrase": "नमस्ते", "language": "Hindi", "category": "Regional" },
+    { "phrase": "नमस्कार", "language": "Hindi", "category": "Regional" },
+    { "phrase": "राम राम", "language": "Hindi", "category": "Regional" },
+    { "phrase": "जय श्री राम", "language": "Hindi", "category": "Regional" },
+    { "phrase": "प्रणाम", "language": "Hindi", "category": "Regional" },
+    { "phrase": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "language": "Punjabi", "category": "Regional" },
+    { "phrase": "السلام عليكم", "language": "Arabic", "category": "Regional" },
+    { "phrase": "سلام", "language": "Arabic", "category": "Regional" },
+    { "phrase": "آداب", "language": "Urdu", "category": "Regional" },
+    { "phrase": "こんにちは", "language": "Japanese", "category": "Regional" },
+    { "phrase": "你好", "language": "Chinese", "category": "Regional" },
+    { "phrase": "안녕하세요", "language": "Korean", "category": "Regional" },
+    { "phrase": "bonjour", "language": "French", "category": "Regional" },
+    { "phrase": "hola", "language": "Spanish", "category": "Regional" },
+    { "phrase": "ciao", "language": "Italian", "category": "Regional" },
+    { "phrase": "добрый день", "language": "Russian", "category": "Regional" }
+  ]
+}

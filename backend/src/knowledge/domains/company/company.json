@@ -1,0 +1,145 @@
+[
+  {
+    "identity": {
+      "id": "KND_COMP_PROFILE_001",
+      "slug": "mobiloitte-group-profile",
+      "domain": "company",
+      "category": "profile",
+      "subcategory": "corporate"
+    },
+    "content": {
+      "title": "Mobiloitte Group Corporate Profile",
+      "short_summary": "Mobiloitte is an AI-first software engineering company established in 2004, delivering digital transformation solutions for startups, enterprises, and government organizations.",
+      "detailed_description": "",
+      "highlights": [
+        "Founded in 2004",
+        "20+ years of experience",
+        "500+ software engineers",
+        "5000+ successful projects",
+        "Expertise in AI, Blockchain, Cloud, Mobile and Web",
+        "Global presence across multiple countries"
+      ],
+      "examples": [
+        "What is Mobiloitte?",
+        "Tell me about Mobiloitte company profile",
+        "Who is Mobiloitte?"
+      ],
+      "notes": [
+        "Master company profile record"
+      ]
+    },
+    "search": {
+      "aliases": [
+        "mobiloitte",
+        "mobiloitte group",
+        "mobiloitte technologies",
+        "mobiloitte company profile",
+        "mobiloite group",
+        "mobilloite group"
+      ],
+      "synonyms": [
+        "it service provider",
+        "software consulting agency",
+        "digital transformation agency"
+      ],
+      "abbreviations": [
+        "mbl",
+        "mob"
+      ],
+      "keywords": [
+        "mobiloitte",
+        "company",
+        "profile",
+        "software",
+        "engineering",
+        "agency",
+        "enterprise",
+        "delhi"
+      ],
+      "search_phrases": [
+        "what is mobiloitte",
+        "tell me about mobiloitte group",
+        "mobiloitte company details"
+      ],
+      "common_user_questions": [],
+      "misspellings": [
+        "mobiloite",
+        "mobilloite",
+        "mobilote",
+        "mobalite"
+      ],
+      "hinglish_variants": [
+        "mobiloitte kya hai",
+        "mobiloitte company ke baare me batao",
+        "mobiloitte kya karti hai"
+      ],
+      "plural_forms": [
+        "mobiloitte companies"
+      ],
+      "singular_forms": [
+        "mobiloitte"
+      ]
+    },
+    "relationships": {
+      "related_topics": [
+        "Company Overview",
+        "Core Services",
+        "Global Offices"
+      ],
+      "related_domains": [
+        "services",
+        "technologies",
+        "locations"
+      ],
+      "related_ids": [
+        "KND_COMP_OVERVIEW_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [
+        "software",
+        "ai",
+        "web3",
+        "cloud"
+      ],
+      "business_tags": [
+        "profile",
+        "agency"
+      ],
+      "department_tags": [
+        "corporate"
+      ],
+      "industry_tags": [
+        "information-technology"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "[www.mobiloitte.com/about-us](https://www.mobiloitte.com/about-us)"
+      ],
+      "documentation_urls": [
+        "[www.mobiloitte.com/company-profile](https://www.mobiloitte.com/company-profile)"
+      ],
+      "internal_references": [
+        "REF_COMP_PROFILE_2026"
+      ],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "datasetId": "synonyms",
+  "name": "Enterprise Synonyms Dataset",
+  "version": "1.0.0",
+  "description": "Standardized word synonyms mapping to canonical business terms",
+  "entries": [
+    { "term": "cost", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "rates", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "quote", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "fee", "canonical": "pricing", "confidence": 0.90, "category": "pricing" },
+    { "term": "address", "canonical": "location", "confidence": 0.95, "category": "company" },
+    { "term": "headquarters", "canonical": "location", "confidence": 0.95, "category": "company" },
+    { "term": "branch", "canonical": "office location", "confidence": 0.90, "category": "company" },
+    { "term": "boss", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "founder", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "vacancy", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "hiring", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "opening", "canonical": "career", "confidence": 0.90, "category": "career" },
+    { "term": "vacation", "canonical": "leave", "confidence": 0.95, "category": "hr" },
+    { "term": "pto", "canonical": "leave", "confidence": 0.95, "category": "hr" },
+    { "term": "owner", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "company head", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "proprietor", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "chief executive", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "rate card", "canonical": "pricing", "confidence": 0.90, "category": "pricing" },
+    { "term": "charge", "canonical": "pricing", "confidence": 0.90, "category": "pricing" }
+  ]
+}
+

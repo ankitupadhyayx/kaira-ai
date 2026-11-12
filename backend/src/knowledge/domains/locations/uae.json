@@ -1,0 +1,116 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_UAE_001",
+      "slug": "uae-regional-office-dubai",
+      "domain": "locations",
+      "category": "regional-office",
+      "subcategory": "uae"
+    },
+    "content": {
+      "title": "Mobiloitte UAE Regional Office — Dubai",
+      "short_summary": "Dubai Silicon Oasis regional hub serving Middle East & MENA enterprise markets.",
+      "detailed_description": "Mobiloitte's UAE Regional Office is located in Dubai Silicon Oasis, Dubai, UAE. The Dubai team leads Blockchain, AI, and Government technology projects across the Middle East and GCC region.",
+      "highlights": [
+        "Location: Dubai Silicon Oasis, Dubai, UAE",
+        "Coverage: Middle East & GCC Region (GST Time Zone)",
+        "Specializations: Smart Government Solutions, Web3, FinTech & AI"
+      ],
+      "examples": [
+        "Does Mobiloitte have a Dubai office?",
+        "Mobiloitte UAE office location"
+      ],
+      "notes": ["UAE location record"]
+    },
+    "search": {
+      "aliases": [
+        "uae office",
+        "dubai office",
+        "middle east office",
+        "mobiloitte dubai",
+        "gcc office"
+      ],
+      "synonyms": [
+        "mena hub",
+        "dubai branch"
+      ],
+      "abbreviations": [
+        "uae"
+      ],
+      "keywords": [
+        "uae",
+        "dubai",
+        "middle",
+        "east",
+        "gcc",
+        "silicon",
+        "oasis",
+        "gst"
+      ],
+      "search_phrases": [
+        "does mobiloitte have an office in dubai",
+        "mobiloitte uae office location"
+      ],
+      "common_user_questions": [
+        "Where is Mobiloitte's Dubai office?"
+      ],
+      "misspellings": [
+        "duba",
+        "dubai"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka dubai me office hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Global Offices Directory",
+        "Head Office India"
+      ],
+      "related_domains": [
+        "locations"
+      ],
+      "related_ids": [
+        "KND_LOC_ALL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "uae",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "uae"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

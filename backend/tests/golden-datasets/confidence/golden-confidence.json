@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "confidence",
+  "description": "Golden evaluation dataset for confidence scoring validation",
+  "entries": [
+    {
+      "id": "CONF_001",
+      "input": "Who is the Chief Executive Officer of Mobiloitte?",
+      "expectedNormalizedQuery": "who is the chief executive officer of mobiloitte",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO", "Mobiloitte"],
+      "expectedConfidenceMin": 0.95,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "formal",
+      "tags": ["confidence", "exact"]
+    }
+  ]
+}

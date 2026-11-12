@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Seed dataset for ambiguity test case generation. Each entry defines a base query with competing intents and the expected resolution. The AmbiguityTestGenerator produces bare + discriminated variants to reach 1,000 cases.",
+  "seeds": [
+    { "id": "AMB001", "query": "java", "competingIntents": ["SERVICE.JAVA", "CAREER.APPLY"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "internship" },
+    { "id": "AMB002", "query": "training", "competingIntents": ["SERVICE.AI", "CAREER.TRAINING"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "career" },
+    { "id": "AMB003", "query": "python", "competingIntents": ["SERVICE.AI", "CAREER.APPLY"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "job" },
+    { "id": "AMB004", "query": "mobile development", "competingIntents": ["SERVICE.MOBILE", "SERVICE.IOT"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "team" },
+    { "id": "AMB005", "query": "software", "competingIntents": ["SERVICE.AI", "SERVICE.BLOCKCHAIN", "SERVICE.MOBILE"], "expectedResolution": "CLARIFICATION_REQUIRED" },
+    { "id": "AMB006", "query": "contact", "competingIntents": ["CONTACT.EMAIL", "CONTACT.PHONE"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "email" },
+    { "id": "AMB007", "query": "apply", "competingIntents": ["CAREER.APPLY", "HR.LEAVE"], "expectedResolution": "RESOLVED", "expectedWinner": "CAREER.APPLY", "discriminatorToken": "job" },
+    { "id": "AMB008", "query": "cloud", "competingIntents": ["SERVICE.CLOUD", "SERVICE.AI"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "provider" },
+    { "id": "AMB009", "query": "data", "competingIntents": ["SERVICE.AI", "SERVICE.BLOCKCHAIN"], "expectedResolution": "CLARIFICATION_REQUIRED", "discriminatorToken": "analytics" },
+    { "id": "AMB010", "query": "internship", "competingIntents": ["CAREER.APPLY", "SERVICE.AI"], "expectedResolution": "RESOLVED", "expectedWinner": "CAREER.APPLY" }
+  ]
+}

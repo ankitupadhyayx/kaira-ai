@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise intent priority hierarchy and conflict resolution rules",
+  "priorityHierarchy": [
+    { "domain": "SECURITY", "level": 1 },
+    { "domain": "LEADERSHIP", "level": 2 },
+    { "domain": "CAREER", "level": 3 },
+    { "domain": "COMPANY", "level": 4 },
+    { "domain": "SERVICE", "level": 5 }
+  ],
+  "conflictRules": [
+    {
+      "ruleId": "RULE_CAREER_INTERNSHIP_OVER_SERVICE",
+      "competingIntents": ["CAREER.APPLY", "SERVICE.AI", "SERVICE.BLOCKCHAIN"],
+      "tokenTriggers": ["internship", "job", "career", "hiring", "apply", "training", "fresher", "vacancy", "resume"],
+      "winnerIntentId": "CAREER.APPLY",
+      "resolutionStrategy": "TOKEN_TRIGGER_OVERRIDE"
+    },
+    {
+      "ruleId": "RULE_LEADERSHIP_OVER_COMPANY",
+      "competingIntents": ["LEADERSHIP.CEO", "COMPANY.ABOUT"],
+      "tokenTriggers": ["ceo", "founder", "jagdish harsh", "director", "head"],
+      "winnerIntentId": "LEADERSHIP.CEO",
+      "resolutionStrategy": "PRIORITY_LEVEL_OVERRIDE"
+    },
+    {
+      "ruleId": "RULE_CONTACT_EMAIL_OVER_ABOUT",
+      "competingIntents": ["CONTACT.EMAIL", "COMPANY.ABOUT"],
+      "tokenTriggers": ["email", "mail", "contact us", "reach", "inquiry"],
+      "winnerIntentId": "CONTACT.EMAIL",
+      "resolutionStrategy": "TOKEN_TRIGGER_OVERRIDE"
+    }
+  ],
+  "clarificationTemplates": [
+    {
+      "intentPair": ["CAREER.APPLY", "SERVICE.AI"],
+      "questionText": "Are you inquiring about career/internship opportunities or Mobiloitte AI development services?",
+      "options": [
+        { "label": "Career & Internship Opportunities", "intentId": "CAREER.APPLY" },
+        { "label": "Mobiloitte AI & ML Services", "intentId": "SERVICE.AI" }
+      ]
+    },
+    {
+      "intentPair": ["COMPANY.ABOUT", "CONTACT.EMAIL"],
+      "questionText": "Would you like general information about Mobiloitte or our email contact details?",
+      "options": [
+        { "label": "About Mobiloitte", "intentId": "COMPANY.ABOUT" },
+        { "label": "Email & Contact Details", "intentId": "CONTACT.EMAIL" }
+      ]
+    }
+  ]
+}

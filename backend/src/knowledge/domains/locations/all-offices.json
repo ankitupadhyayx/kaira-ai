@@ -1,0 +1,122 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_ALL_001",
+      "slug": "global-offices-directory",
+      "domain": "locations",
+      "category": "directory",
+      "subcategory": "global"
+    },
+    "content": {
+      "title": "Mobiloitte Global Offices Directory",
+      "short_summary": "5 global office locations in India (HQ), USA, UK, UAE, and Singapore.",
+      "detailed_description": "Mobiloitte operates 5 international office hubs to deliver 24/7 client engineering services: New Delhi (Global HQ - Pocket D, Okhla Phase I, D-115, New Delhi 110020), Boston (USA), London (UK), Dubai (UAE), and Singapore.",
+      "highlights": [
+        "India (Global HQ): Pocket D, Okhla Phase I, D-115, New Delhi 110020",
+        "USA Regional Office: Boston, Massachusetts, USA",
+        "UK Regional Office: London, United Kingdom",
+        "UAE Regional Office: Dubai Silicon Oasis, Dubai, UAE",
+        "Singapore Regional Office: Marina Bay, Singapore"
+      ],
+      "examples": [
+        "Where are Mobiloitte's global offices?",
+        "Mobiloitte office locations directory"
+      ],
+      "notes": ["All offices directory record"]
+    },
+    "search": {
+      "aliases": [
+        "all offices",
+        "global offices",
+        "office locations",
+        "international offices",
+        "mobiloitte locations"
+      ],
+      "synonyms": [
+        "branch offices",
+        "regional hubs"
+      ],
+      "abbreviations": [
+        "locs"
+      ],
+      "keywords": [
+        "locations",
+        "offices",
+        "india",
+        "usa",
+        "uk",
+        "uae",
+        "singapore",
+        "boston",
+        "london",
+        "dubai"
+      ],
+      "search_phrases": [
+        "where are mobiloitte offices located",
+        "mobiloitte global offices directory"
+      ],
+      "common_user_questions": [
+        "In which countries does Mobiloitte have offices?"
+      ],
+      "misspellings": [
+        "offics",
+        "loction"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ke offices kahan kahan hain"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Head Office India",
+        "USA Office",
+        "UK Office"
+      ],
+      "related_domains": [
+        "locations",
+        "contact"
+      ],
+      "related_ids": [
+        "KND_LOC_HQ_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "directory"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

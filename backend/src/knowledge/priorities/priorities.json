@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Domain Priority Hierarchy Dataset",
+  "priorityLevels": [
+    { "level": 1, "name": "Critical", "description": "High intent explicit requests (e.g., CEO query, Sales Contact, Pricing Quote)" },
+    { "level": 2, "name": "High", "description": "Primary services & core business domains (e.g., AI, Cloud, Careers)" },
+    { "level": 3, "name": "Medium", "description": "Supportive topics & policy guidelines (e.g., HR Leave, Privacy, Awards)" },
+    { "level": 4, "name": "Low", "description": "General informational and general FAQ fallback" }
+  ]
+}

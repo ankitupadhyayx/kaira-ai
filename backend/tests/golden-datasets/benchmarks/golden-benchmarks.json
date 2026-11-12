@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "category": "benchmarks",
+  "description": "Golden performance benchmark targets for Fast Path Engine",
+  "targets": {
+    "intentAccuracyTargetPct": 99.0,
+    "aliasCoverageTargetPct": 98.0,
+    "synonymCoverageTargetPct": 98.0,
+    "entityCoverageTargetPct": 95.0,
+    "falsePositiveMaxPct": 1.0,
+    "falseNegativeMaxPct": 1.0,
+    "ambiguousMatchMaxPct": 3.0,
+    "clarificationRateMaxPct": 5.0,
+    "avgConfidenceMin": 0.85,
+    "p50LatencyMaxMs": 15,
+    "p90LatencyMaxMs": 50,
+    "p99LatencyMaxMs": 100,
+    "cacheHitRatioMinPct": 95.0
+  }
+}

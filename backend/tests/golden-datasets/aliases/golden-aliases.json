@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "category": "aliases",
+  "description": "Golden evaluation dataset for alias resolution test cases",
+  "entries": [
+    {
+      "id": "ALIAS_001",
+      "input": "Who is the group ceo?",
+      "expectedNormalizedQuery": "who is the group ceo",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "formal",
+      "tags": ["alias", "leadership"]
+    },
+    {
+      "id": "ALIAS_002",
+      "input": "Tell me about Mobiloitte AI assistant",
+      "expectedNormalizedQuery": "tell me about mobiloitte ai assistant",
+      "expectedIntent": "SERVICE.AI",
+      "expectedEntities": ["Kaira", "AI"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "AI & Machine Learning Services",
+      "tier": "core",
+      "queryStyle": "natural",
+      "tags": ["alias", "persona"]
+    },
+    {
+      "id": "ALIAS_003",
+      "input": "Do you offer AWS cloud architecture?",
+      "expectedNormalizedQuery": "do you offer aws cloud architecture",
+      "expectedIntent": "SERVICE.CLOUD",
+      "expectedEntities": ["AWS"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "Cloud Computing & Infrastructure",
+      "tier": "core",
+      "queryStyle": "business",
+      "tags": ["alias", "cloud"]
+    }
+  ]
+}

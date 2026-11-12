@@ -1,0 +1,116 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_MGMT_001",
+      "slug": "senior-management-team",
+      "domain": "leadership",
+      "category": "management",
+      "subcategory": "operations"
+    },
+    "content": {
+      "title": "Mobiloitte Senior Management Team",
+      "short_summary": "Delivery managers, solution architects, project managers, and QA heads.",
+      "detailed_description": "Mobiloitte's senior management team oversees day-to-day agile sprint delivery, technical solution architecture, client success engineering, and quality assurance. Comprising Certified Scrum Masters, Solution Architects, and Lead Engineers, the team ensures on-time, budget-compliant project delivery.",
+      "highlights": [
+        "Certified Scrum Masters & Agile Project Managers",
+        "Enterprise Solution Architects (AWS, Azure, AI, Web3)",
+        "Quality Assurance & Security Compliance Leads",
+        "Client Success Managers across North America, Europe, and Asia"
+      ],
+      "examples": [
+        "Who manages projects at Mobiloitte?",
+        "Mobiloitte management team"
+      ],
+      "notes": ["Management record"]
+    },
+    "search": {
+      "aliases": [
+        "management team",
+        "senior management",
+        "project managers",
+        "delivery managers"
+      ],
+      "synonyms": [
+        "operational leaders",
+        "scrum leads"
+      ],
+      "abbreviations": [
+        "mgmt",
+        "pm"
+      ],
+      "keywords": [
+        "management",
+        "managers",
+        "project",
+        "delivery",
+        "scrum",
+        "architects"
+      ],
+      "search_phrases": [
+        "who manages project delivery at mobiloitte",
+        "mobiloitte senior management"
+      ],
+      "common_user_questions": [
+        "Who manages project delivery at Mobiloitte?"
+      ],
+      "misspellings": [
+        "managment",
+        "managment team"
+      ],
+      "hinglish_variants": [
+        "mobiloitte me project kaun manage karta hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Leadership Overview",
+        "Core Services"
+      ],
+      "related_domains": [
+        "leadership",
+        "services"
+      ],
+      "related_ids": [
+        "KND_LEAD_OVERVIEW_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "management"
+      ],
+      "department_tags": [
+        "operations"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/leadership"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_DIR_001",
+      "slug": "managing-directors-and-practice-leads",
+      "domain": "leadership",
+      "category": "directors",
+      "subcategory": "practice-leads"
+    },
+    "content": {
+      "title": "Mobiloitte Managing Directors & Practice Leads",
+      "short_summary": "Practice directors leading AI/ML, Mobile Engineering, Web Development, and Cloud Operations.",
+      "detailed_description": "Mobiloitte's Practice Directors lead specialized technology innovation centers across AI & Machine Learning, Mobile Native Apps, Web3 & Blockchain, and Cloud Architecture. Each director oversees client delivery quality, technical architecture standards, and talent development.",
+      "highlights": [
+        "Director of AI & Generative AI Practice",
+        "Director of Mobile Engineering (iOS & Android)",
+        "Director of Blockchain & Smart Contract Engineering",
+        "Director of Cloud Architecture & DevOps Operations"
+      ],
+      "examples": [
+        "Who are the directors at Mobiloitte?",
+        "Mobiloitte practice directors"
+      ],
+      "notes": ["Directors record"]
+    },
+    "search": {
+      "aliases": [
+        "directors",
+        "mobiloitte directors",
+        "practice leads",
+        "managing directors"
+      ],
+      "synonyms": [
+        "department heads",
+        "practice directors"
+      ],
+      "abbreviations": [
+        "dir"
+      ],
+      "keywords": [
+        "directors",
+        "practice",
+        "leads",
+        "ai",
+        "mobile",
+        "cloud",
+        "blockchain"
+      ],
+      "search_phrases": [
+        "who are mobiloitte directors",
+        "mobiloitte practice leads"
+      ],
+      "common_user_questions": [
+        "Who leads Mobiloitte's AI practice?"
+      ],
+      "misspellings": [
+        "directr",
+        "director"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ke directors kaun hain"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Leadership Overview",
+        "Core Services"
+      ],
+      "related_domains": [
+        "leadership",
+        "services"
+      ],
+      "related_ids": [
+        "KND_LEAD_OVERVIEW_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "directors"
+      ],
+      "department_tags": [
+        "management"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/leadership"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

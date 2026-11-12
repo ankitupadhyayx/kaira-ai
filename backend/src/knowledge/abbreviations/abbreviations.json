@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "type": "abbreviations",
+  "description": "Enterprise Abbreviations Knowledge Base Dataset",
+  "entries": [
+    { "abbreviation": "app", "expanded": "application", "category": "technology" },
+    { "abbreviation": "dev", "expanded": "development", "category": "technology" },
+    { "abbreviation": "exec", "expanded": "executive", "category": "leadership" },
+    { "abbreviation": "tech", "expanded": "technology", "category": "technology" },
+    { "abbreviation": "info", "expanded": "information", "category": "general" },
+    { "abbreviation": "hq", "expanded": "headquarters", "category": "location" },
+    { "abbreviation": "sec", "expanded": "sector", "category": "location" },
+    { "abbreviation": "ncr", "expanded": "national capital region", "category": "location" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "datasetId": "aliases",
+  "name": "Enterprise Entity Aliases Dataset",
+  "version": "1.0.0",
+  "description": "Entity and product aliases mapping to canonical business terms",
+  "entries": [
+    { "term": "aws", "canonical": "amazon web services", "confidence": 1.0, "category": "cloud" },
+    { "term": "kaira", "canonical": "mobiloitte ai assistant", "confidence": 1.0, "category": "persona" },
+    { "term": "gcp", "canonical": "google cloud platform", "confidence": 1.0, "category": "cloud" },
+    { "term": "azure", "canonical": "microsoft azure", "confidence": 1.0, "category": "cloud" },
+    { "term": "react native", "canonical": "mobile app", "confidence": 0.9, "category": "mobile" },
+    { "term": "flutter", "canonical": "cross platform mobile development", "confidence": 0.9, "category": "mobile" },
+    { "term": "node", "canonical": "node.js backend engineering", "confidence": 0.95, "category": "backend" },
+    { "term": "jagdish harsh", "canonical": "group ceo and founder", "confidence": 1.0, "category": "leadership" },
+    { "term": "mobiloite", "canonical": "mobiloitte", "confidence": 0.95, "category": "company" },
+    { "term": "mobiloitee", "canonical": "mobiloitte", "confidence": 0.95, "category": "company" },
+    { "term": "mobilloite", "canonical": "mobiloitte", "confidence": 0.95, "category": "company" },
+    { "term": "company head", "canonical": "chief executive officer", "confidence": 0.95, "category": "leadership" },
+    { "term": "owner", "canonical": "chief executive officer", "confidence": 0.90, "category": "leadership" },
+    { "term": "who started mobiloitte", "canonical": "chief executive officer", "confidence": 0.95, "category": "leadership" },
+    { "term": "who established mobiloitte", "canonical": "chief executive officer", "confidence": 0.95, "category": "leadership" },
+    { "term": "reactjs", "canonical": "react js", "confidence": 0.98, "category": "engineering" },
+    { "term": "node js", "canonical": "node js", "confidence": 0.98, "category": "engineering" },
+    { "term": "nodejs", "canonical": "node js", "confidence": 0.98, "category": "engineering" },
+    { "term": "pyhton", "canonical": "python", "confidence": 0.95, "category": "engineering" },
+    { "term": "javscript", "canonical": "javascript", "confidence": 0.95, "category": "engineering" },
+    { "term": "sprng boot", "canonical": "spring boot", "confidence": 0.95, "category": "engineering" }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Common Phrases Knowledge Base",
+  "phrases": [
+    { "phrase": "who is the ceo", "intentId": "LEADERSHIP.CEO", "confidence": 1.0 },
+    { "phrase": "who is the cto", "intentId": "LEADERSHIP.CTO", "confidence": 1.0 },
+    { "phrase": "tell me about the company", "intentId": "COMPANY.ABOUT", "confidence": 0.95 },
+    { "phrase": "where is your office", "intentId": "COMPANY.LOCATION", "confidence": 0.95 },
+    { "phrase": "what services do you offer", "intentId": "SERVICE.AI", "confidence": 0.85 },
+    { "phrase": "do you build artificial intelligence", "intentId": "SERVICE.AI", "confidence": 0.95 },
+    { "phrase": "do you build blockchain apps", "intentId": "SERVICE.BLOCKCHAIN", "confidence": 0.95 },
+    { "phrase": "how much does it cost", "intentId": "PRICING.QUOTE", "confidence": 0.95 },
+    { "phrase": "how can i apply for a job", "intentId": "CAREER.APPLY", "confidence": 0.95 },
+    { "phrase": "what is the leave policy", "intentId": "HR.LEAVE", "confidence": 0.95 },
+    { "phrase": "how do i contact sales", "intentId": "CONTACT.EMAIL", "confidence": 0.95 }
+  ]
+}

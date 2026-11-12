@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "type": "acronyms",
+  "description": "Enterprise Acronyms Knowledge Base Dataset",
+  "entries": [
+    { "acronym": "CEO", "meaning": "Chief Executive Officer", "domain": "LEADERSHIP" },
+    { "acronym": "CTO", "meaning": "Chief Technology Officer", "domain": "LEADERSHIP" },
+    { "acronym": "AI", "meaning": "Artificial Intelligence", "domain": "SERVICE" },
+    { "acronym": "ML", "meaning": "Machine Learning", "domain": "SERVICE" },
+    { "acronym": "LLM", "meaning": "Large Language Model", "domain": "SERVICE" },
+    { "acronym": "AWS", "meaning": "Amazon Web Services", "domain": "CLOUD" },
+    { "acronym": "GCP", "meaning": "Google Cloud Platform", "domain": "CLOUD" },
+    { "acronym": "IoT", "meaning": "Internet of Things", "domain": "SERVICE" },
+    { "acronym": "AR", "meaning": "Augmented Reality", "domain": "SERVICE" },
+    { "acronym": "VR", "meaning": "Virtual Reality", "domain": "SERVICE" },
+    { "acronym": "UI", "meaning": "User Interface", "domain": "SERVICE" },
+    { "acronym": "UX", "meaning": "User Experience", "domain": "SERVICE" },
+    { "acronym": "QA", "meaning": "Quality Assurance", "domain": "SERVICE" },
+    { "acronym": "ETL", "meaning": "Extract Transform Load", "domain": "SERVICE" },
+    { "acronym": "HR", "meaning": "Human Resources", "domain": "HR" },
+    { "acronym": "PTO", "meaning": "Paid Time Off", "domain": "HR" },
+    { "acronym": "NDA", "meaning": "Non-Disclosure Agreement", "domain": "LEGAL" },
+    { "acronym": "SLA", "meaning": "Service Level Agreement", "domain": "LEGAL" },
+    { "acronym": "GDPR", "meaning": "General Data Protection Regulation", "domain": "SECURITY" },
+    { "acronym": "HIPAA", "meaning": "Health Insurance Portability and Accountability Act", "domain": "SECURITY" },
+    { "acronym": "SOC2", "meaning": "Service Organization Control 2", "domain": "SECURITY" }
+  ]
+}

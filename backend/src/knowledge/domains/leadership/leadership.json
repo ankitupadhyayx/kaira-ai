@@ -1,0 +1,117 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_OVERVIEW_001",
+      "slug": "executive-leadership-overview",
+      "domain": "leadership",
+      "category": "overview",
+      "subcategory": "management"
+    },
+    "content": {
+      "title": "Mobiloitte Executive Leadership Team",
+      "short_summary": "Experienced executive team driving Mobiloitte's global tech innovation.",
+      "detailed_description": "Mobiloitte's executive leadership team comprises seasoned technology leaders, domain architects, and business strategists with decades of combined experience across Software Engineering, AI, Web3, FinTech, and Cloud Infrastructure.",
+      "highlights": [
+        "Led by Founder & Group CEO Jagdish Harsh",
+        "Executive practice heads across AI, Web3, Mobile, and Cloud",
+        "Cross-functional governance board for security and quality",
+        "Global leadership presence in India, USA, UK, UAE, and Singapore"
+      ],
+      "examples": [
+        "Who is on Mobiloitte's leadership team?",
+        "Tell me about Mobiloitte management"
+      ],
+      "notes": ["Leadership overview record"]
+    },
+    "search": {
+      "aliases": [
+        "leadership team",
+        "mobiloitte leadership",
+        "executive team",
+        "management team"
+      ],
+      "synonyms": [
+        "c-suite",
+        "board of directors",
+        "company management"
+      ],
+      "abbreviations": [
+        "lead",
+        "mgmt"
+      ],
+      "keywords": [
+        "leadership",
+        "executive",
+        "management",
+        "directors",
+        "c-suite",
+        "team"
+      ],
+      "search_phrases": [
+        "who is on mobiloitte leadership team",
+        "mobiloitte executive team"
+      ],
+      "common_user_questions": [
+        "Who leads Mobiloitte?"
+      ],
+      "misspellings": [
+        "leadershp",
+        "managment"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ki leadership team me kaun hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "CEO Profile",
+        "Company History"
+      ],
+      "related_domains": [
+        "leadership",
+        "company"
+      ],
+      "related_ids": [
+        "KND_LEAD_CEO_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "leadership"
+      ],
+      "department_tags": [
+        "executive"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/leadership"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

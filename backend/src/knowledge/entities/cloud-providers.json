@@ -1,0 +1,37 @@
+{
+  "domain": "cloud_providers",
+  "version": "1.0.0",
+  "description": "Cloud hosting and infrastructure providers",
+  "entities": [
+    {
+      "entityId": "ENT_CLOUD_AWS",
+      "type": "cloud_providers",
+      "name": "Amazon Web Services",
+      "canonical": "amazon web services",
+      "aliases": ["amazon web services", "aws", "amazon cloud"],
+      "category": "cloud",
+      "attributes": { "vendor": "Amazon" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_CLOUD_GCP",
+      "type": "cloud_providers",
+      "name": "Google Cloud Platform",
+      "canonical": "google cloud platform",
+      "aliases": ["google cloud platform", "gcp", "google cloud"],
+      "category": "cloud",
+      "attributes": { "vendor": "Google" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_CLOUD_AZURE",
+      "type": "cloud_providers",
+      "name": "Microsoft Azure",
+      "canonical": "microsoft azure",
+      "aliases": ["microsoft azure", "azure"],
+      "category": "cloud",
+      "attributes": { "vendor": "Microsoft" },
+      "confidence": 1.0
+    }
+  ]
+}

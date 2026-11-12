@@ -1,0 +1,114 @@
+[
+  {
+    "identity": {
+      "id": "KND_COMP_MIS_001",
+      "slug": "mobiloitte-mission-statement",
+      "domain": "company",
+      "category": "mission",
+      "subcategory": "strategy"
+    },
+    "content": {
+      "title": "Mobiloitte Corporate Mission",
+      "short_summary": "To empower global businesses with cutting-edge, reliable, and scalable digital solutions.",
+      "detailed_description": "Mobiloitte's mission is to engineer high-impact, transformative digital products leveraging AI, Web3, Mobile, and Cloud technologies. We aim to accelerate business growth, optimize operational efficiency, and deliver exceptional user experiences for our clients worldwide.",
+      "highlights": [
+        "Deliver scalable and secure enterprise software",
+        "Pioneer AI and Web3 technology adoption",
+        "Maintain customer-centric delivery excellence"
+      ],
+      "examples": [
+        "What is Mobiloitte's mission?",
+        "Mobiloitte mission statement"
+      ],
+      "notes": ["Mission statement"]
+    },
+    "search": {
+      "aliases": [
+        "mobiloitte mission",
+        "company mission",
+        "our mission",
+        "mobiloitte goals"
+      ],
+      "synonyms": [
+        "corporate objective",
+        "business purpose"
+      ],
+      "abbreviations": [
+        "mis"
+      ],
+      "keywords": [
+        "mission",
+        "statement",
+        "purpose",
+        "goals",
+        "empower",
+        "scalable"
+      ],
+      "search_phrases": [
+        "what is mobiloitte mission",
+        "mobiloitte corporate mission"
+      ],
+      "common_user_questions": [
+        "What is the mission of Mobiloitte?"
+      ],
+      "misspellings": [
+        "mision",
+        "misson"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka mission kya hai",
+        "company ka maqsad kya hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Corporate Vision",
+        "Core Values"
+      ],
+      "related_domains": [
+        "company"
+      ],
+      "related_ids": [
+        "KND_COMP_VIS_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "mission"
+      ],
+      "department_tags": [
+        "corporate"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/about-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

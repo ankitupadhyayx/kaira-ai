@@ -1,0 +1,20 @@
+{
+  "datasetId": "phonetic_variants",
+  "name": "Phonetic Sound-Alike Variants Dataset",
+  "version": "1.0.0",
+  "description": "Soundex/Metaphone phonetic variant mappings to canonical terms",
+  "entries": [
+    { "term": "seoo", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "seeo", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "artifishal", "canonical": "artificial", "confidence": 0.90, "category": "services" },
+    { "term": "intelijence", "canonical": "intelligence", "confidence": 0.90, "category": "services" },
+    { "term": "blokchain", "canonical": "blockchain", "confidence": 0.90, "category": "services" },
+    { "term": "clowd", "canonical": "cloud", "confidence": 0.90, "category": "services" },
+    { "term": "prissing", "canonical": "pricing", "confidence": 0.90, "category": "pricing" },
+    { "term": "pyton", "canonical": "python", "confidence": 0.90, "category": "engineering" },
+    { "term": "javascrip", "canonical": "javascript", "confidence": 0.90, "category": "engineering" },
+    { "term": "nodejess", "canonical": "node", "confidence": 0.90, "category": "engineering" },
+    { "term": "springbut", "canonical": "spring boot", "confidence": 0.90, "category": "engineering" }
+  ]
+}
+

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UniversalKnowledgeRecord",
+  "description": "Stage 7.3 — Universal Enterprise Knowledge Record JSON Schema Standard",
+  "type": "object",
+  "required": [
+    "identity",
+    "content",
+    "search",
+    "relationships",
+    "metadata",
+    "status",
+    "tags",
+    "references"
+  ],
+  "properties": {
+    "identity": {
+      "type": "object",
+      "required": ["id", "slug", "domain", "category"],
+      "properties": {
+        "id": { "type": "string" },
+        "slug": { "type": "string" },
+        "domain": { "type": "string" },
+        "category": { "type": "string" },
+        "subcategory": { "type": ["string", "null"] }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["title", "short_summary", "detailed_description"],
+      "properties": {
+        "title": { "type": "string" },
+        "short_summary": { "type": "string" },
+        "detailed_description": { "type": "string" },
+        "highlights": { "type": "array", "items": { "type": "string" } },
+        "examples": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "search": {
+      "type": "object",
+      "required": ["aliases", "synonyms", "abbreviations", "keywords", "search_phrases"],
+      "properties": {
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "synonyms": { "type": "array", "items": { "type": "string" } },
+        "abbreviations": { "type": "array", "items": { "type": "string" } },
+        "keywords": { "type": "array", "items": { "type": "string" } },
+        "search_phrases": { "type": "array", "items": { "type": "string" } },
+        "common_user_questions": { "type": "array", "items": { "type": "string" } },
+        "misspellings": { "type": "array", "items": { "type": "string" } },
+        "hinglish_variants": { "type": "array", "items": { "type": "string" } },
+        "plural_forms": { "type": "array", "items": { "type": "string" } },
+        "singular_forms": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "required": ["related_topics", "related_domains", "related_ids"],
+      "properties": {
+        "related_topics": { "type": "array", "items": { "type": "string" } },
+        "related_domains": { "type": "array", "items": { "type": "string" } },
+        "related_ids": { "type": "array", "items": { "type": "string" } },
+        "parent_id": { "type": ["string", "null"] },
+        "children_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["version", "created_at", "updated_at", "created_by", "updated_by", "language", "region", "confidence", "priority"],
+      "properties": {
+        "version": { "type": "string" },
+        "created_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "created_by": { "type": "string" },
+        "updated_by": { "type": "string" },
+        "review_date": { "type": ["string", "null"] },
+        "language": { "type": "string" },
+        "region": { "type": "string" },
+        "source": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "priority": { "type": "integer", "minimum": 1, "maximum": 4 }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "deprecated", "draft", "archived"]
+    },
+    "tags": {
+      "type": "object",
+      "required": ["technology_tags", "business_tags", "department_tags", "industry_tags"],
+      "properties": {
+        "technology_tags": { "type": "array", "items": { "type": "string" } },
+        "business_tags": { "type": "array", "items": { "type": "string" } },
+        "department_tags": { "type": "array", "items": { "type": "string" } },
+        "industry_tags": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "references": {
+      "type": "object",
+      "required": ["official_references", "documentation_urls", "internal_references", "external_references"],
+      "properties": {
+        "official_references": { "type": "array", "items": { "type": "string" } },
+        "documentation_urls": { "type": "array", "items": { "type": "string" } },
+        "internal_references": { "type": "array", "items": { "type": "string" } },
+        "external_references": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "future_expansion": {
+      "type": "object",
+      "properties": {
+        "seo_metadata": { "type": ["object", "null"] },
+        "analytics_metadata": { "type": ["object", "null"] },
+        "permissions": { "type": ["object", "null"] },
+        "vector_metadata": { "type": ["object", "null"] },
+        "embeddings": { "type": ["object", "null"] },
+        "localization": { "type": ["object", "null"] }
+      }
+    }
+  }
+}

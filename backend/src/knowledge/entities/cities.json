@@ -1,0 +1,9 @@
+{
+  "domain": "cities",
+  "entities": [
+    { "id": "CITY001", "name": "Noida", "canonicalName": "Noida", "entityType": "locations", "aliases": ["Noida Sector 62", "Noida Office"], "attributes": { "country": "India", "state": "Uttar Pradesh" } },
+    { "id": "CITY002", "name": "New Delhi", "canonicalName": "New Delhi", "entityType": "locations", "aliases": ["Delhi", "Delhi NCR", "NCR"], "attributes": { "country": "India" } },
+    { "id": "CITY003", "name": "Singapore", "canonicalName": "Singapore", "entityType": "locations", "aliases": ["Singapore Branch"], "attributes": { "country": "Singapore" } },
+    { "id": "CITY004", "name": "London", "canonicalName": "London", "entityType": "locations", "aliases": ["UK Office"], "attributes": { "country": "United Kingdom" } }
+  ]
+}

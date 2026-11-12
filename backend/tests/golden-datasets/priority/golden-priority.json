@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "priority",
+  "description": "Golden evaluation dataset for priority level resolution",
+  "entries": [
+    {
+      "id": "PRIO_001",
+      "input": "Who is the CEO?",
+      "expectedNormalizedQuery": "who is the ceo",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "formal",
+      "tags": ["priority", "critical"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_HR_001",
+      "slug": "hr-and-recruitment-contacts",
+      "domain": "contact",
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    "content": {
+      "title": "Mobiloitte HR & Recruitment Contact Desk",
+      "short_summary": "HR department contact details for recruitment, career inquiries, and resume submissions.",
+      "detailed_description": "For job applications, career opportunities, internship inquiries, or interview scheduling, candidate applicants can reach Mobiloitte's Human Resources department directly via email at hr@mobiloitte.com or phone at +91-9999525501.",
+      "highlights": [
+        "HR Careers Email: hr@mobiloitte.com",
+        "HR Recruitment Line: +91-9999525501",
+        "Careers Portal: https://www.mobiloitte.com/careers"
+      ],
+      "examples": [
+        "How to contact Mobiloitte HR?",
+        "Where to send resume for job at Mobiloitte?"
+      ],
+      "notes": ["HR contact record"]
+    },
+    "search": {
+      "aliases": [
+        "hr contact",
+        "recruitment contact",
+        "careers email",
+        "jobs contact",
+        "hr phone number"
+      ],
+      "synonyms": [
+        "human resources contact",
+        "hiring desk"
+      ],
+      "abbreviations": [
+        "hr"
+      ],
+      "keywords": [
+        "hr",
+        "recruitment",
+        "careers",
+        "jobs",
+        "resume",
+        "hiring",
+        "hr@mobiloitte.com"
+      ],
+      "search_phrases": [
+        "how to contact mobiloitte hr",
+        "mobiloitte hr recruitment email"
+      ],
+      "common_user_questions": [
+        "How do I send my CV to Mobiloitte HR?"
+      ],
+      "misspellings": [
+        "h.r.",
+        "her"
+      ],
+      "hinglish_variants": [
+        "hr ka email id kya hai",
+        "job ke liye kahan contact karein"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Careers & Hiring",
+        "Office Addresses"
+      ],
+      "related_domains": [
+        "hiring",
+        "contact"
+      ],
+      "related_ids": [
+        "KND_CNT_EMAIL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "hr"
+      ],
+      "department_tags": [
+        "recruitment"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/careers"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

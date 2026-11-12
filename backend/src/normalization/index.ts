@@ -1,0 +1,22 @@
+export { PipelineOrchestrator } from './pipeline-orchestrator/pipeline.orchestrator';
+export { UnicodeNormalizer } from './unicode/unicode.normalizer';
+export { WhitespaceNormalizer } from './whitespace/whitespace.normalizer';
+export { LanguageDetector } from './language-detection/language-detector';
+export { EmojiProcessor } from './emoji/emoji.processor';
+export { RepetitionNormalizer } from './repeated-characters/repetition.normalizer';
+export { PunctuationNormalizer } from './punctuation/punctuation.normalizer';
+export { SlangExpander } from './slang-abbreviation/slang.expander';
+export { ContractionExpander } from './slang-abbreviation/contraction.expander';
+export { AbbreviationExpander } from './slang-abbreviation/abbreviation.expander';
+export { HinglishNormalizer } from './slang-abbreviation/hinglish.normalizer';
+export { SpellChecker } from './typo-correction/spell.checker';
+export { SimilarityMatcher } from './similarity-matching/similarity-matcher';
+export { PhoneticMatcher } from './phonetic-matching/phonetic-matcher';
+export { CanonicalMapper } from './canonical-mapping/canonical-mapper';
+export { UniversalTokenizer } from './tokenization/universal.tokenizer';
+export { MetadataBuilder } from './pipeline-orchestrator/metadata-builder';
+export { NormalizationUtils } from './utils/normalization.utils';
+
+export type { INormalizerStage, IUniversalNormalizer } from './interfaces/INormalizer';
+export type { ProcessingContext, CorrectionRecord, CorrectionType, CharacterStats, WhitespaceStats, DetectedLanguage, LanguageDetectionResult, EmojiMetadata, NormalizationMetadata } from './types/processing-context.types';
+export { NormalizationConfig, DEFAULT_NORMALIZATION_CONFIG } from './config/normalization.config';

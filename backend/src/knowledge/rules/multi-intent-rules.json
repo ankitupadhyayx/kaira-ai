@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "description": "Multi-intent query clause splitting rules and conjunction delimiters",
+  "conjunctions": [
+    "and also",
+    "as well as",
+    "along with",
+    "together with",
+    "in addition to",
+    "in addition",
+    "including",
+    "alongside",
+    "along",
+    "sath mein",
+    "sath me",
+    "tatha",
+    "evam",
+    "aur",
+    "bhi",
+    "and",
+    "also",
+    "plus",
+    "additionally",
+    "furthermore",
+    "besides",
+    "or",
+    "&",
+    "+"
+  ],
+  "punctuationDelimiters": [
+    "?",
+    ".",
+    ";",
+    ","
+  ],
+  "minSegmentLengthChars": 2,
+  "minSegmentTokens": 1,
+  "preserveOrder": true
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_PHONE_001",
+      "slug": "official-phone-calling-numbers",
+      "domain": "contact",
+      "category": "phone",
+      "subcategory": "hotlines"
+    },
+    "content": {
+      "title": "Mobiloitte Official Phone Calling Numbers & Hotlines",
+      "short_summary": "Official phone calling hotlines for Sales, Support, and Global Offices.",
+      "detailed_description": "Mobiloitte phone contact hotlines: Main Corporate Hotline (+91-9999525501 / +91-11-49998888), US Representative Line (+1-781-808-3488), UK Line (+44-203-287-9099), and WhatsApp Desk (+91-9999525501).",
+      "highlights": [
+        "India & Global Hotline: +91-9999525501",
+        "India Landline: +91-11-49998888",
+        "USA Hotline: +1-781-808-3488",
+        "UK Hotline: +44-203-287-9099",
+        "WhatsApp Business Desk: +91-9999525501"
+      ],
+      "examples": [
+        "What is Mobiloitte's phone number?",
+        "Mobiloitte calling hotline",
+        "Mobiloitte contact number"
+      ],
+      "notes": ["Master phone contact record"]
+    },
+    "search": {
+      "aliases": [
+        "phone number",
+        "mobiloitte phone number",
+        "contact number",
+        "calling number",
+        "whatsapp number",
+        "toll free number"
+      ],
+      "synonyms": [
+        "telephone",
+        "calling hotline",
+        "mobile number"
+      ],
+      "abbreviations": [
+        "phone",
+        "ph",
+        "mob"
+      ],
+      "keywords": [
+        "phone",
+        "number",
+        "contact",
+        "hotline",
+        "+91-9999525501",
+        "calling",
+        "whatsapp"
+      ],
+      "search_phrases": [
+        "what is mobiloitte phone number",
+        "mobiloitte customer care calling number"
+      ],
+      "common_user_questions": [
+        "What is the phone number of Mobiloitte?"
+      ],
+      "misspellings": [
+        "phon",
+        "fone",
+        "phn"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka phone number kya hai",
+        "calling number batao"
+      ],
+      "plural_forms": [
+        "phone numbers"
+      ],
+      "singular_forms": [
+        "phone number"
+      ]
+    },
+    "relationships": {
+      "related_topics": [
+        "Sales Contact",
+        "Email Addresses"
+      ],
+      "related_domains": [
+        "contact"
+      ],
+      "related_ids": [
+        "KND_CNT_EMAIL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "phone"
+      ],
+      "department_tags": [
+        "communication"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

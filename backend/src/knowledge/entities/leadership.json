@@ -1,0 +1,27 @@
+{
+  "domain": "leadership",
+  "version": "1.0.0",
+  "description": "Executive leadership team and key management roles",
+  "entities": [
+    {
+      "entityId": "ENT_LEAD_CEO",
+      "type": "leadership",
+      "name": "Mr. Jagdish Harsh",
+      "canonical": "jagdish harsh",
+      "aliases": ["jagdish harsh", "ceo", "chief executive officer", "group ceo", "founder"],
+      "category": "executive",
+      "attributes": { "role": "Group CEO & Founder", "scope": "global" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LEAD_CTO",
+      "type": "leadership",
+      "name": "Chief Technology Officer",
+      "canonical": "chief technology officer",
+      "aliases": ["cto", "chief technology officer", "head of technology", "vp engineering"],
+      "category": "executive",
+      "attributes": { "role": "CTO", "department": "engineering" },
+      "confidence": 1.0
+    }
+  ]
+}

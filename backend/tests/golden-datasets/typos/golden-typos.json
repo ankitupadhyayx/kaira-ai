@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "category": "typos",
+  "description": "Golden evaluation dataset for typo and fat-finger correction test cases",
+  "entries": [
+    {
+      "id": "TYPO_001",
+      "input": "who is the ceoo of mobiloite?",
+      "expectedNormalizedQuery": "who is the ceo of mobiloitte",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO", "Mobiloitte"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "edge",
+      "queryStyle": "typo",
+      "tags": ["typo", "ceo", "company"]
+    },
+    {
+      "id": "TYPO_002",
+      "input": "do you build blokchain solutions?",
+      "expectedNormalizedQuery": "do you build blockchain solutions",
+      "expectedIntent": "SERVICE.BLOCKCHAIN",
+      "expectedEntities": ["Blockchain"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "Blockchain & Web3 Services",
+      "tier": "edge",
+      "queryStyle": "typo",
+      "tags": ["typo", "blockchain"]
+    }
+  ]
+}

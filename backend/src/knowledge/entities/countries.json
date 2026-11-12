@@ -1,0 +1,9 @@
+{
+  "domain": "countries",
+  "entities": [
+    { "id": "CTRY001", "name": "India", "canonicalName": "India", "entityType": "locations", "aliases": ["IN", "Bharat"], "attributes": { "region": "Asia" } },
+    { "id": "CTRY002", "name": "United States", "canonicalName": "United States", "entityType": "locations", "aliases": ["USA", "US", "America"], "attributes": { "region": "North America" } },
+    { "id": "CTRY003", "name": "United Kingdom", "canonicalName": "United Kingdom", "entityType": "locations", "aliases": ["UK", "Britain"], "attributes": { "region": "Europe" } },
+    { "id": "CTRY004", "name": "Singapore", "canonicalName": "Singapore", "entityType": "locations", "aliases": ["SG"], "attributes": { "region": "Southeast Asia" } }
+  ]
+}

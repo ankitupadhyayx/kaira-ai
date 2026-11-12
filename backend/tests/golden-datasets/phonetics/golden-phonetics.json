@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "phonetics",
+  "description": "Golden evaluation dataset for phonetic sound-alike test cases",
+  "entries": [
+    {
+      "id": "PHON_001",
+      "input": "who is the seeo of mobiloite?",
+      "expectedNormalizedQuery": "who is the ceo of mobiloitte",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "edge",
+      "queryStyle": "broken",
+      "tags": ["phonetics", "ceo"]
+    }
+  ]
+}

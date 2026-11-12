@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Stopwords & Noise Words Dictionary",
+  "stopwords": [
+    "a", "an", "the", "and", "or", "but", "if", "then", "else", "when", "at",
+    "by", "for", "with", "about", "against", "between", "into", "through",
+    "during", "before", "after", "above", "below", "to", "from", "up", "upon",
+    "of", "in", "out", "on", "off", "over", "under", "again", "further",
+    "is", "am", "are", "was", "were", "be", "been", "being", "have", "has",
+    "had", "do", "does", "did", "can", "could", "should", "would", "will",
+    "please", "tell", "me", "show", "give", "us", "you", "your", "what", "which",
+    "who", "whom", "this", "that", "these", "those"
+  ]
+}

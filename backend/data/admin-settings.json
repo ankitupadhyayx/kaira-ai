@@ -1,0 +1,28 @@
+{
+  "defaultLanguage": "English (en-US)",
+  "allowedFileTypes": [
+    "PDF",
+    "DOCX",
+    "DOC",
+    "TXT",
+    "MD",
+    "CSV",
+    "XLSX",
+    "PPTX",
+    "JSON"
+  ],
+  "maxUploadSizeBytes": 52428800,
+  "chunkSize": 2048,
+  "chunkOverlap": 256,
+  "embeddingModel": "text-embedding-3-large",
+  "llmModel": "gpt-4o-mini",
+  "vectorDb": "Qdrant (Local)",
+  "fastPathEnabled": true,
+  "ragEnabled": true,
+  "strictConfidenceGuard": true,
+  "topKResults": 5,
+  "ocrEnabled": true,
+  "languageDetectionEnabled": true,
+  "duplicateDetectionEnabled": true,
+  "autoProcessingEnabled": true
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_BOARD_001",
+      "slug": "board-of-directors",
+      "domain": "leadership",
+      "category": "board",
+      "subcategory": "governance"
+    },
+    "content": {
+      "title": "Mobiloitte Board of Directors & Governance",
+      "short_summary": "Corporate governance board providing strategic direction, legal compliance, and fiscal oversight.",
+      "detailed_description": "Mobiloitte's Board of Directors consists of executive directors and independent industry advisors. The Board provides strategic governance, corporate compliance oversight, risk management, and long-term fiscal planning across Mobiloitte's global subsidiaries.",
+      "highlights": [
+        "Strategic corporate governance & risk management",
+        "Quarterly fiscal review and expansion oversight",
+        "Compliance alignment across US, EU, Middle East, and Asia"
+      ],
+      "examples": [
+        "Who is on Mobiloitte's board of directors?",
+        "Mobiloitte corporate governance"
+      ],
+      "notes": ["Board of directors record"]
+    },
+    "search": {
+      "aliases": [
+        "board of directors",
+        "mobiloitte board",
+        "governance board",
+        "board members"
+      ],
+      "synonyms": [
+        "directors board",
+        "governing council"
+      ],
+      "abbreviations": [
+        "bod"
+      ],
+      "keywords": [
+        "board",
+        "directors",
+        "governance",
+        "oversight",
+        "advisors",
+        "compliance"
+      ],
+      "search_phrases": [
+        "mobiloitte board of directors",
+        "who is on mobiloitte board"
+      ],
+      "common_user_questions": [
+        "Who serves on Mobiloitte's Board of Directors?"
+      ],
+      "misspellings": [
+        "bord",
+        "boad"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ke board members kaun hain"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "CEO Profile",
+        "Leadership Overview"
+      ],
+      "related_domains": [
+        "leadership"
+      ],
+      "related_ids": [
+        "KND_LEAD_CEO_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "board"
+      ],
+      "department_tags": [
+        "governance"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/leadership"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

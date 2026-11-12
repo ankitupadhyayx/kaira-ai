@@ -1,0 +1,116 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_UK_001",
+      "slug": "uk-regional-office-london",
+      "domain": "locations",
+      "category": "regional-office",
+      "subcategory": "uk"
+    },
+    "content": {
+      "title": "Mobiloitte UK Regional Office — London",
+      "short_summary": "London regional office serving European and UK enterprise accounts.",
+      "detailed_description": "Mobiloitte's UK Regional Office is located in London, United Kingdom. The London office delivers software consulting, digital transformation strategy, and client relationship management across the UK and European Union markets.",
+      "highlights": [
+        "Location: London, United Kingdom",
+        "Hotline: +44-203-287-9099",
+        "Coverage: UK and European Union (GMT/BST Time Zone)",
+        "Services: IT Consulting, Mobile & Web App Engineering, FinTech Solutions"
+      ],
+      "examples": [
+        "Does Mobiloitte have a UK office?",
+        "Mobiloitte London office contact"
+      ],
+      "notes": ["UK location record"]
+    },
+    "search": {
+      "aliases": [
+        "uk office",
+        "london office",
+        "mobiloitte uk",
+        "britain office",
+        "england office"
+      ],
+      "synonyms": [
+        "europe office",
+        "uk branch"
+      ],
+      "abbreviations": [
+        "uk"
+      ],
+      "keywords": [
+        "uk",
+        "london",
+        "united",
+        "kingdom",
+        "england",
+        "+44-203-287-9099",
+        "gmt"
+      ],
+      "search_phrases": [
+        "does mobiloitte have an office in uk",
+        "mobiloitte london office location"
+      ],
+      "common_user_questions": [
+        "Where is Mobiloitte's UK office?"
+      ],
+      "misspellings": [
+        "londn",
+        "londone"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka uk office kahan hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Global Offices Directory",
+        "Head Office India"
+      ],
+      "related_domains": [
+        "locations"
+      ],
+      "related_ids": [
+        "KND_LOC_ALL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "uk",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "uk"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

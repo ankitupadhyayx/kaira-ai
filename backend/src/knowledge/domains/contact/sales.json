@@ -1,0 +1,117 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_SALES_001",
+      "slug": "sales-and-business-development-desk",
+      "domain": "contact",
+      "category": "sales",
+      "subcategory": "business-development"
+    },
+    "content": {
+      "title": "Mobiloitte Sales & Business Development Desk",
+      "short_summary": "Connect with our sales team for project proposals, estimates, and consultations.",
+      "detailed_description": "To request a project quote, discuss software requirements, hire dedicated developers, or schedule a technical consultation, clients can reach Mobiloitte's Business Development desk at sales@mobiloitte.com or call +91-9999525501.",
+      "highlights": [
+        "Sales Email: sales@mobiloitte.com",
+        "Direct Sales Hotline: +91-9999525501",
+        "Free Project Estimation & Proposal in 24 Hours",
+        "NDAs Signed Prior to Project Discovery"
+      ],
+      "examples": [
+        "How to contact Mobiloitte sales team?",
+        "Get a project quotation from Mobiloitte"
+      ],
+      "notes": ["Sales contact record"]
+    },
+    "search": {
+      "aliases": [
+        "sales contact",
+        "business development",
+        "project quote",
+        "sales team",
+        "sales email"
+      ],
+      "synonyms": [
+        "commercial desk",
+        "business inquiries"
+      ],
+      "abbreviations": [
+        "sales",
+        "bd"
+      ],
+      "keywords": [
+        "sales",
+        "quote",
+        "proposal",
+        "pricing",
+        "sales@mobiloitte.com",
+        "consultation"
+      ],
+      "search_phrases": [
+        "how to contact mobiloitte sales team",
+        "mobiloitte project quotation email"
+      ],
+      "common_user_questions": [
+        "How can I get a project quote from Mobiloitte?"
+      ],
+      "misspellings": [
+        "sale",
+        "salesteam"
+      ],
+      "hinglish_variants": [
+        "project enquiry kahan karein",
+        "sales team se baat karni hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Email Contacts",
+        "Phone Hotlines"
+      ],
+      "related_domains": [
+        "contact"
+      ],
+      "related_ids": [
+        "KND_CNT_EMAIL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "sales"
+      ],
+      "department_tags": [
+        "business-development"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

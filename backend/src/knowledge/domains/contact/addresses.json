@@ -1,0 +1,129 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_ADDR_001",
+      "slug": "corporate-office-addresses",
+      "domain": "contact",
+      "category": "address",
+      "subcategory": "locations"
+    },
+    "content": {
+      "title": "Mobiloitte Corporate Headquarters & Office Addresses",
+      "short_summary": "Headquarters in New Delhi, India with regional offices in USA, UK, UAE, and Singapore.",
+      "detailed_description": "Mobiloitte's global corporate headquarters is located at D-115, Okhla Industrial Area, Phase 1, New Delhi, India 110020. Regional offices are established in Boston (USA), London (UK), Dubai (UAE), and Singapore.",
+      "highlights": [
+        "Global HQ: D-115, Okhla Industrial Area, Phase 1, New Delhi, India 110020",
+        "USA Office: Boston, Massachusetts, USA",
+        "UK Office: London, United Kingdom",
+        "UAE Office: Dubai Silicon Oasis, Dubai, UAE",
+        "Singapore Office: Marina Bay, Singapore"
+      ],
+      "examples": [
+        "What is Mobiloitte's office address?",
+        "Where is Mobiloitte headquartered?",
+        "Mobiloitte Delhi office location"
+      ],
+      "notes": ["Master office address record"]
+    },
+    "search": {
+      "aliases": [
+        "office address",
+        "mobiloitte address",
+        "headquarters address",
+        "delhi office address",
+        "location"
+      ],
+      "synonyms": [
+        "postal address",
+        "physical location",
+        "street address"
+      ],
+      "abbreviations": [
+        "addr",
+        "hq"
+      ],
+      "keywords": [
+        "address",
+        "okhla",
+        "delhi",
+        "headquarters",
+        "location",
+        "boston",
+        "london",
+        "dubai"
+      ],
+      "search_phrases": [
+        "what is mobiloitte office address",
+        "mobiloitte headquarters location"
+      ],
+      "common_user_questions": [
+        "Where is Mobiloitte's office located?",
+        "What is the address of Mobiloitte Delhi office?"
+      ],
+      "misspellings": [
+        "addres",
+        "adress",
+        "adderss"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka office kahan hai",
+        "delhi office ka address kya hai"
+      ],
+      "plural_forms": [
+        "addresses"
+      ],
+      "singular_forms": [
+        "address"
+      ]
+    },
+    "relationships": {
+      "related_topics": [
+        "Phone Contacts",
+        "Global Offices"
+      ],
+      "related_domains": [
+        "contact",
+        "locations"
+      ],
+      "related_ids": [
+        "KND_CNT_PHONE_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "contact"
+      ],
+      "department_tags": [
+        "admin"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

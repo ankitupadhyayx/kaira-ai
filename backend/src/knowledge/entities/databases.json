@@ -1,0 +1,37 @@
+{
+  "domain": "databases",
+  "version": "1.0.0",
+  "description": "Database engines and storage systems",
+  "entities": [
+    {
+      "entityId": "ENT_DB_POSTGRES",
+      "type": "databases",
+      "name": "PostgreSQL",
+      "canonical": "postgresql",
+      "aliases": ["postgresql", "postgres", "pg"],
+      "category": "relational",
+      "attributes": { "sql": true, "type": "rdbms" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_DB_MONGO",
+      "type": "databases",
+      "name": "MongoDB",
+      "canonical": "mongodb",
+      "aliases": ["mongodb", "mongo"],
+      "category": "nosql",
+      "attributes": { "document": true, "type": "nosql" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_DB_REDIS",
+      "type": "databases",
+      "name": "Redis",
+      "canonical": "redis",
+      "aliases": ["redis", "redis cache"],
+      "category": "in-memory",
+      "attributes": { "cache": true, "key-value": true },
+      "confidence": 1.0
+    }
+  ]
+}

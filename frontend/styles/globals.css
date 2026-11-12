@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   KAIRA Design Token System – v2
+   Handles BOTH light and dark themes via CSS custom properties
+   ============================================================ */
+
+:root {
+  /* === BACKGROUNDS === */
+  --k-bg:          #f4f6f9;
+  --k-surface:     #ffffff;
+  --k-surface-2:   #f0f4f8;
+  --k-surface-3:   #e4eaf2;
+  --k-surface-inv: #0f172a;
+
+  /* === BORDERS === */
+  --k-border:      rgba(0, 0, 0, 0.09);
+  --k-border-2:    rgba(0, 0, 0, 0.05);
+  --k-border-focus:rgba(8, 145, 178, 0.4);
+
+  /* === TEXT === */
+  --k-text:        #0f172a;
+  --k-text-2:      #334155;
+  --k-text-3:      #64748b;
+  --k-text-4:      #94a3b8;
+  --k-text-inv:    #f8fafc;
+
+  /* === ACCENT (teal, readable on white) === */
+  --k-accent:        #0891b2;
+  --k-accent-hover:  #0e7490;
+  --k-accent-soft:   rgba(8, 145, 178, 0.08);
+  --k-accent-border: rgba(8, 145, 178, 0.22);
+  --k-accent-text:   #0e7490;
+
+  /* === CHAT BUBBLES === */
+  --k-user-bg:     #1e293b;
+  --k-user-text:   #f8fafc;
+  --k-ai-bg:       #ffffff;
+  --k-ai-border:   rgba(0, 0, 0, 0.07);
+  --k-ai-shadow:   0 2px 8px rgba(0, 0, 0, 0.06);
+
+  /* === WIDGET / PANELS === */
+  --k-widget-bg:   rgba(255, 255, 255, 0.98);
+  --k-header-bg:   rgba(255, 255, 255, 0.96);
+  --k-input-bg:    #f8fafc;
+  --k-sidebar-bg:  #f0f4f8;
+  --k-sidebar-border: rgba(0, 0, 0, 0.08);
+
+  /* === SHADOWS === */
+  --k-shadow-sm:     0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --k-shadow-md:     0 4px 12px rgba(0,0,0,0.09), 0 2px 4px rgba(0,0,0,0.04);
+  --k-shadow-lg:     0 20px 60px rgba(0,0,0,0.12), 0 8px 24px rgba(0,0,0,0.06);
+  --k-widget-shadow: 0 20px 60px rgba(0,0,0,0.15), 0 4px 16px rgba(0,0,0,0.08);
+  --k-input-focus:   0 0 0 3px rgba(8,145,178,0.12), 0 4px 12px rgba(0,0,0,0.06);
+
+  /* === STATUS === */
+  --k-success:     #10b981;
+  --k-warning:     #f59e0b;
+  --k-error:       #ef4444;
+  --k-online:      #10b981;
+
+  /* === MESH BACKGROUND === */
+  --k-mesh-1: rgba(8, 145, 178, 0.06);
+  --k-mesh-2: rgba(99, 102, 241, 0.04);
+}
+
+/* Dark mode overrides */
+.dark {
+  /* === BACKGROUNDS === */
+  --k-bg:          #0d1424;
+  --k-surface:     #111827;
+  --k-surface-2:   #1a2234;
+  --k-surface-3:   #1e293b;
+  --k-surface-inv: #e2e8f0;
+
+  /* === BORDERS === */
+  --k-border:      rgba(255, 255, 255, 0.07);
+  --k-border-2:    rgba(255, 255, 255, 0.04);
+  --k-border-focus:rgba(0, 230, 176, 0.35);
+
+  /* === TEXT === */
+  --k-text:        #e2e8f0;
+  --k-text-2:      #94a3b8;
+  --k-text-3:      #64748b;
+  --k-text-4:      #334155;
+  --k-text-inv:    #0f172a;
+
+  /* === ACCENT (aurora teal, visible on dark) === */
+  --k-accent:        #00e6b0;
+  --k-accent-hover:  #00c99a;
+  --k-accent-soft:   rgba(0, 230, 176, 0.09);
+  --k-accent-border: rgba(0, 230, 176, 0.18);
+  --k-accent-text:   #00e6b0;
+
+  /* === CHAT BUBBLES === */
+  --k-user-bg:     rgba(255, 255, 255, 0.07);
+  --k-user-text:   #e2e8f0;
+  --k-ai-bg:       rgba(255, 255, 255, 0.03);
+  --k-ai-border:   rgba(255, 255, 255, 0.06);
+  --k-ai-shadow:   0 2px 8px rgba(0, 0, 0, 0.2);
+
+  /* === WIDGET / PANELS === */
+  --k-widget-bg:   rgba(13, 20, 36, 0.98);
+  --k-header-bg:   rgba(13, 20, 36, 0.96);
+  --k-input-bg:    rgba(255, 255, 255, 0.04);
+  --k-sidebar-bg:  rgba(10, 15, 28, 0.99);
+  --k-sidebar-border: rgba(255, 255, 255, 0.05);
+
+  /* === SHADOWS === */
+  --k-shadow-sm:     0 1px 3px rgba(0,0,0,0.3);
+  --k-shadow-md:     0 4px 16px rgba(0,0,0,0.35);
+  --k-shadow-lg:     0 20px 80px rgba(0,0,0,0.5);
+  --k-widget-shadow: 0 0 0 1px rgba(0,230,176,0.08), 0 24px 80px rgba(0,0,0,0.6), 0 8px 32px rgba(0,0,0,0.4);
+  --k-input-focus:   0 0 0 3px rgba(0,230,176,0.1), 0 4px 16px rgba(0,0,0,0.3);
+
+  /* === STATUS (same) === */
+  --k-success:     #10b981;
+  --k-warning:     #f59e0b;
+  --k-error:       #ef4444;
+  --k-online:      #10b981;
+
+  /* === MESH BACKGROUND === */
+  --k-mesh-1: rgba(0, 230, 176, 0.05);
+  --k-mesh-2: rgba(0, 120, 255, 0.04);
+}
+
+/* ============================================================
+   Base Styles
+   ============================================================ */
+@layer base {
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--k-bg);
+    color: var(--k-text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--k-border);
+    border-radius: 99px;
+    transition: background 0.2s;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--k-accent-border);
+  }
+
+  /* Focus ring reset — we handle it per component */
+  *:focus { outline: none; }
+  *:focus-visible {
+    outline: 2px solid var(--k-accent);
+    outline-offset: 2px;
+  }
+}
+
+/* ============================================================
+   Utility Layer
+   ============================================================ */
+@layer utilities {
+  /* Token helpers */
+  .k-bg        { background: var(--k-bg); }
+  .k-surface   { background: var(--k-surface); }
+  .k-surface-2 { background: var(--k-surface-2); }
+  .k-surface-3 { background: var(--k-surface-3); }
+  .k-border    { border-color: var(--k-border); }
+  .k-text      { color: var(--k-text); }
+  .k-text-2    { color: var(--k-text-2); }
+  .k-text-3    { color: var(--k-text-3); }
+  .k-text-4    { color: var(--k-text-4); }
+  .k-accent    { color: var(--k-accent-text); }
+  .k-accent-bg { background: var(--k-accent); }
+  .k-accent-soft { background: var(--k-accent-soft); }
+
+  /* Glassmorphism */
+  .glass {
+    background: var(--k-surface);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--k-border);
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    background: linear-gradient(135deg, var(--k-text) 0%, var(--k-text-2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .text-gradient-accent {
+    background: linear-gradient(135deg, var(--k-accent) 0%, #00b3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* No scrollbar */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Transitions */
+  .k-transition { transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1); }
+
+  /* Interactive surfaces */
+  .k-hover:hover { background: var(--k-surface-2); }
+
+  /* Mesh background */
+  .k-mesh {
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, var(--k-mesh-1) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 85% 90%, var(--k-mesh-2) 0%, transparent 50%),
+      var(--k-bg);
+  }
+}
+
+/* ============================================================
+   Prose / Markdown Styles
+   ============================================================ */
+.k-prose {
+  color: var(--k-text);
+  font-size: 0.875rem;
+  line-height: 1.75;
+}
+.k-prose p           { margin-bottom: 0.65rem; }
+.k-prose p:last-child { margin-bottom: 0; }
+.k-prose ul          { list-style: disc; padding-left: 1.25rem; margin-bottom: 0.65rem; }
+.k-prose ol          { list-style: decimal; padding-left: 1.25rem; margin-bottom: 0.65rem; }
+.k-prose li          { margin-bottom: 0.25rem; line-height: 1.6; color: var(--k-text); }
+.k-prose strong      { font-weight: 600; color: var(--k-text); }
+.k-prose em          { font-style: italic; color: var(--k-text-2); }
+.k-prose h1          { font-size: 1.125rem; font-weight: 700; color: var(--k-text); margin: 0.75rem 0 0.4rem; line-height: 1.3; }
+.k-prose h2          { font-size: 1rem;     font-weight: 600; color: var(--k-text); margin: 0.65rem 0 0.35rem; }
+.k-prose h3          { font-size: 0.9rem;   font-weight: 600; color: var(--k-text); margin: 0.5rem 0 0.3rem; }
+
+.k-prose code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78em;
+  background: var(--k-accent-soft);
+  color: var(--k-accent-text);
+  border: 1px solid var(--k-accent-border);
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+}
+
+.k-prose pre {
+  background: var(--k-surface-3);
+  border: 1px solid var(--k-border);
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 0.65rem 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78em;
+  line-height: 1.65;
+}
+.k-prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--k-text);
+  font-size: 1em;
+}
+
+.k-prose a           { color: var(--k-accent-text); text-decoration: underline; text-underline-offset: 2px; }
+.k-prose a:hover     { opacity: 0.8; }
+.k-prose hr          { border: none; border-top: 1px solid var(--k-border); margin: 0.75rem 0; }
+.k-prose blockquote  {
+  border-left: 3px solid var(--k-accent);
+  padding-left: 0.9rem;
+  margin: 0.65rem 0;
+  color: var(--k-text-2);
+  font-style: italic;
+}
+.k-prose table       { width: 100%; border-collapse: collapse; margin-bottom: 0.65rem; font-size: 0.83em; }
+.k-prose th,
+.k-prose td          { border: 1px solid var(--k-border); padding: 0.45rem 0.7rem; text-align: left; color: var(--k-text); }
+.k-prose th          {
+  background: var(--k-accent-soft);
+  font-weight: 600;
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--k-accent-text);
+}
+
+/* ============================================================
+   Animations
+   ============================================================ */
+@keyframes fadeIn     { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:translateY(0); } }
+@keyframes slideUp    { from { opacity:0; transform:translateY(14px) scale(0.97); } to { opacity:1; transform:translateY(0) scale(1); } }
+@keyframes scaleIn    { from { opacity:0; transform:scale(0.94); } to { opacity:1; transform:scale(1); } }
+@keyframes pulseAurora{ 0%,100%{ opacity:1; } 50%{ opacity:0.35; } }
+@keyframes shimmer    { 0%{ background-position:-200% 0; } 100%{ background-position:200% 0; } }
+@keyframes typingDot  { 0%,60%,100%{ transform:translateY(0); opacity:0.35; } 30%{ transform:translateY(-5px); opacity:1; } }
+@keyframes toastIn    { from{ opacity:0; transform:translateX(20px) scale(0.95); } to{ opacity:1; transform:translateX(0) scale(1); } }
+@keyframes toastOut   { from{ opacity:1; transform:scale(1); } to{ opacity:0; transform:scale(0.92); } }
+@keyframes spin       { to{ transform:rotate(360deg); } }
+@keyframes newMsg     { 0%,100%{ box-shadow:0 0 0 0 var(--k-accent-border); } 50%{ box-shadow:0 0 0 4px var(--k-accent-border); } }
+
+.animate-fade-in    { animation: fadeIn  0.22s ease-out both; }
+.animate-slide-up   { animation: slideUp 0.32s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-scale-in   { animation: scaleIn 0.18s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-toast-in   { animation: toastIn 0.25s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-toast-out  { animation: toastOut 0.2s ease-in both; }
+.animate-spin-k     { animation: spin 0.8s linear infinite; }
+
+/* ============================================================
+   Code language label (inside pre blocks)
+   ============================================================ */
+.k-code-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0.75rem;
+  background: var(--k-surface-3);
+  border: 1px solid var(--k-border);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7em;
+  color: var(--k-accent-text);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   Sidebar conversation item hover reveal
+   ============================================================ */
+.conv-item .conv-actions { opacity: 0; transition: opacity 0.15s; }
+.conv-item:hover .conv-actions { opacity: 1; }
+
+/* ============================================================
+   Scrollbar in dark/light
+   ============================================================ */
+.dark ::-webkit-scrollbar-thumb  { background: rgba(255,255,255,0.08); }
+.dark ::-webkit-scrollbar-thumb:hover { background: rgba(0,230,176,0.2); }

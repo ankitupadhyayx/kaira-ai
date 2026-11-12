@@ -1,0 +1,37 @@
+{
+  "datasetId": "acronyms",
+  "name": "Enterprise Acronyms Dataset",
+  "version": "1.0.0",
+  "description": "Standardized acronym expansion mapping",
+  "entries": [
+    { "term": "ceo", "canonical": "chief executive officer", "confidence": 1.0, "category": "leadership" },
+    { "term": "cto", "canonical": "chief technology officer", "confidence": 1.0, "category": "leadership" },
+    { "term": "coo", "canonical": "chief operating officer", "confidence": 1.0, "category": "leadership" },
+    { "term": "cfo", "canonical": "chief financial officer", "confidence": 1.0, "category": "leadership" },
+    { "term": "ai", "canonical": "artificial intelligence", "confidence": 1.0, "category": "services" },
+    { "term": "ml", "canonical": "machine learning", "confidence": 1.0, "category": "services" },
+    { "term": "llm", "canonical": "large language model", "confidence": 1.0, "category": "services" },
+    { "term": "nft", "canonical": "non fungible token", "confidence": 1.0, "category": "blockchain" },
+    { "term": "defi", "canonical": "decentralized finance", "confidence": 1.0, "category": "blockchain" },
+    { "term": "ui", "canonical": "user interface", "confidence": 1.0, "category": "design" },
+    { "term": "ux", "canonical": "user experience", "confidence": 1.0, "category": "design" },
+    { "term": "hr", "canonical": "human resources", "confidence": 1.0, "category": "hr" },
+    { "term": "dl", "canonical": "deep learning", "confidence": 1.0, "category": "services" },
+    { "term": "nlp", "canonical": "natural language processing", "confidence": 1.0, "category": "services" },
+    { "term": "rag", "canonical": "retrieval augmented generation", "confidence": 1.0, "category": "services" },
+    { "term": "api", "canonical": "application programming interface", "confidence": 1.0, "category": "services" },
+    { "term": "sdk", "canonical": "software development kit", "confidence": 1.0, "category": "services" },
+    { "term": "jwt", "canonical": "json web token", "confidence": 1.0, "category": "security" },
+    { "term": "otp", "canonical": "one time password", "confidence": 1.0, "category": "security" },
+    { "term": "sso", "canonical": "single sign on", "confidence": 1.0, "category": "security" },
+    { "term": "qc", "canonical": "quality control", "confidence": 1.0, "category": "testing" },
+    { "term": "cicd", "canonical": "continuous integration continuous deployment", "confidence": 1.0, "category": "devops" },
+    { "term": "mvp", "canonical": "minimum viable product", "confidence": 1.0, "category": "services" },
+    { "term": "eta", "canonical": "estimated time of arrival", "confidence": 1.0, "category": "general" },
+    { "term": "poc", "canonical": "proof of concept", "confidence": 1.0, "category": "services" },
+    { "term": "crm", "canonical": "customer relationship management", "confidence": 1.0, "category": "enterprise" },
+    { "term": "erp", "canonical": "enterprise resource planning", "confidence": 1.0, "category": "enterprise" },
+    { "term": "cms", "canonical": "content management system", "confidence": 1.0, "category": "services" }
+  ]
+}
+

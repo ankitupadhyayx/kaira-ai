@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Clarification Prompt Templates & Disambiguation Rules",
+  "templates": [
+    {
+      "trigger": "AMBIGUOUS_TECH_VS_CAREER",
+      "competingIntents": ["SERVICE.WEB", "CAREER.APPLY"],
+      "message": "Are you interested in our software engineering services or looking to apply for a developer position?",
+      "options": ["Software Services", "Career Openings"]
+    },
+    {
+      "trigger": "AMBIGUOUS_SERVICE_TYPE",
+      "competingIntents": ["SERVICE.AI", "SERVICE.BLOCKCHAIN", "SERVICE.MOBILE"],
+      "message": "Which specific service area would you like to explore?",
+      "options": ["AI & Machine Learning", "Blockchain & Web3", "Mobile App Development", "Cloud & DevOps"]
+    },
+    {
+      "trigger": "AMBIGUOUS_CONTACT_VS_PRICING",
+      "competingIntents": ["CONTACT.EMAIL", "PRICING.QUOTE"],
+      "message": "Would you like to speak directly with sales or request a custom price estimate?",
+      "options": ["Contact Sales Team", "Get Price Quotation"]
+    }
+  ]
+}

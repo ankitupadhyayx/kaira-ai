@@ -1,0 +1,15 @@
+{
+  "datasetId": "multilingual_variants",
+  "name": "Multilingual Script & Language Variants Dataset",
+  "version": "1.0.0",
+  "description": "Native script terms mapping to canonical intent keywords",
+  "entries": [
+    { "term": "नमस्ते", "canonical": "hello", "confidence": 1.0, "category": "greeting" },
+    { "term": "राम राम", "canonical": "hello", "confidence": 1.0, "category": "greeting" },
+    { "term": "precio", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "tarif", "canonical": "pricing", "confidence": 0.95, "category": "pricing" },
+    { "term": "trabajo", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "empleo", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "contacto", "canonical": "contact", "confidence": 0.95, "category": "contact" }
+  ]
+}

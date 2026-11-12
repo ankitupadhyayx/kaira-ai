@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "category": "entities",
+  "description": "Golden evaluation dataset for entity extraction test cases",
+  "entries": [
+    {
+      "id": "ENT_001",
+      "input": "Where is your Noida office located?",
+      "expectedNormalizedQuery": "where is your noida office located",
+      "expectedIntent": "COMPANY.LOCATION",
+      "expectedEntities": ["Noida"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "Office Locations & Headquarters",
+      "tier": "core",
+      "queryStyle": "formal",
+      "tags": ["entity", "location", "noida"]
+    },
+    {
+      "id": "ENT_002",
+      "input": "Tell me about Jagdish Harsh",
+      "expectedNormalizedQuery": "tell me about jagdish harsh",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["Jagdish Harsh"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "natural",
+      "tags": ["entity", "person", "ceo"]
+    }
+  ]
+}

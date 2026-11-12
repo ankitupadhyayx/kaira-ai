@@ -1,0 +1,117 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_HRS_001",
+      "slug": "business-office-operating-hours",
+      "domain": "contact",
+      "category": "hours",
+      "subcategory": "schedule"
+    },
+    "content": {
+      "title": "Mobiloitte Office Operating Hours & Business Schedule",
+      "short_summary": "Monday through Friday, 9:30 AM to 6:30 PM IST (24/7 support for enterprise clients).",
+      "detailed_description": "Mobiloitte's corporate office operating hours in New Delhi are Monday through Friday from 9:30 AM to 6:30 PM IST. Global sales and technical support teams operate 24/7 across multiple time zones (EST, GMT, GST, SGT) to serve global enterprise clients.",
+      "highlights": [
+        "Headquarters Hours: Monday – Friday, 9:30 AM – 6:30 PM IST",
+        "Global Enterprise Support: 24/7 / 365 Days Availability",
+        "Time Zones Supported: IST (India), EST (USA), GMT (UK), GST (Dubai), SGT (Singapore)"
+      ],
+      "examples": [
+        "What are Mobiloitte's office hours?",
+        "Is Mobiloitte open on Saturday?"
+      ],
+      "notes": ["Office hours record"]
+    },
+    "search": {
+      "aliases": [
+        "office hours",
+        "business hours",
+        "working hours",
+        "operating hours",
+        "timing"
+      ],
+      "synonyms": [
+        "schedule",
+        "work schedule"
+      ],
+      "abbreviations": [
+        "hrs"
+      ],
+      "keywords": [
+        "hours",
+        "timing",
+        "schedule",
+        "working",
+        "9:30",
+        "monday",
+        "friday",
+        "24/7"
+      ],
+      "search_phrases": [
+        "what are mobiloitte office hours",
+        "mobiloitte working hours schedule"
+      ],
+      "common_user_questions": [
+        "What time does Mobiloitte office open?"
+      ],
+      "misspellings": [
+        "hors",
+        "timings"
+      ],
+      "hinglish_variants": [
+        "office time kya hai",
+        "mobiloitte kab khulta hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Office Addresses",
+        "Support Contact"
+      ],
+      "related_domains": [
+        "contact"
+      ],
+      "related_ids": [
+        "KND_CNT_ADDR_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "hours"
+      ],
+      "department_tags": [
+        "admin"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

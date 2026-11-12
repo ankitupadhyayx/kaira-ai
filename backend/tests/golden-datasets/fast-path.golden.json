@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Fast Path golden query dataset. Each entry maps a representative natural language query to the expected intent ID and minimum confidence score. Used by RegressionRunner to prevent intent regressions.",
+  "entries": [
+    { "id": "G001", "query": "who is the ceo of mobiloitte", "expectedIntentId": "LEADERSHIP_INFO", "expectedConfidenceMin": 0.85, "tier": "core", "tags": ["leadership"] },
+    { "id": "G002", "query": "who is the founder of the company", "expectedIntentId": "LEADERSHIP_INFO", "expectedConfidenceMin": 0.80, "tier": "core", "tags": ["leadership"] },
+    { "id": "G005", "query": "where is your noida office", "expectedIntentId": "OFFICE_OVERVIEW", "expectedConfidenceMin": 0.75, "tier": "core", "tags": ["location"] },
+    { "id": "G006", "query": "i want to apply for a job", "expectedIntentId": "JOB_APPLICATION", "expectedConfidenceMin": 0.80, "tier": "core", "tags": ["career"] },
+    { "id": "G007", "query": "how can i contact you", "expectedIntentId": "GENERAL_CONTACT", "expectedConfidenceMin": 0.70, "tier": "core", "tags": ["contact"] },
+    { "id": "G009", "query": "tell me about the company", "expectedIntentId": "COMPANY_PROFILE", "expectedConfidenceMin": 0.75, "tier": "core", "tags": ["company"] },
+    { "id": "G011", "query": "who is jagdish harsh", "expectedIntentId": "LEADERSHIP_INFO", "expectedConfidenceMin": 0.80, "tier": "entity", "tags": ["leadership", "entity"] },
+    { "id": "G013", "query": "group ceo", "expectedIntentId": "LEADERSHIP_INFO", "expectedConfidenceMin": 0.85, "tier": "alias", "tags": ["leadership", "alias"] },
+    { "id": "G014", "query": "how much does it cost to build software", "expectedIntentId": null, "expectedConfidenceMin": 0, "tier": "rag-only", "tags": ["pricing", "rag-only"], "notes": "Pricing is RAG-exclusive — FastPath must NOT handle. Expects handled=false." },
+    { "id": "G015", "query": "apply for internship", "expectedIntentId": "INTERNSHIPS", "expectedConfidenceMin": 0.80, "tier": "core", "tags": ["career"] }
+  ]
+}

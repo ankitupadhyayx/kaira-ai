@@ -1,0 +1,8 @@
+{
+  "domain": "email-types",
+  "entities": [
+    { "id": "EMAIL001", "name": "Sales Email", "canonicalName": "Sales Email", "entityType": "email_types", "aliases": ["sales@mobiloitte.com", "sales email", "business inquiry email"] },
+    { "id": "EMAIL002", "name": "HR Email", "canonicalName": "HR Career Email", "entityType": "email_types", "aliases": ["jobs@mobiloitte.com", "hr@mobiloitte.com", "recruitment email"] },
+    { "id": "EMAIL003", "name": "Support Email", "canonicalName": "Support Email", "entityType": "email_types", "aliases": ["support@mobiloitte.com", "helpdesk email"] }
+  ]
+}

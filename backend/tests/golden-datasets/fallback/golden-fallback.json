@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "fallback",
+  "description": "Golden evaluation dataset for unhandled / fallback queries",
+  "entries": [
+    {
+      "id": "FB_001",
+      "input": "Quantum pizza delivery options",
+      "expectedNormalizedQuery": "quantum pizza delivery options",
+      "expectedIntent": "UNKNOWN",
+      "expectedEntities": [],
+      "expectedConfidenceMin": 0.00,
+      "expectedConfidenceMax": 0.35,
+      "expectedClarification": null,
+      "expectedFallback": "Out of scope domain fallback",
+      "expectedPriority": 4,
+      "expectedResponseCategory": "Out of Scope",
+      "tier": "edge",
+      "queryStyle": "informal",
+      "tags": ["fallback", "out_of_scope"]
+    }
+  ]
+}

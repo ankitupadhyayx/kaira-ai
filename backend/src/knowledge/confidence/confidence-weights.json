@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "description": "Enterprise Confidence Engine Weights Config",
+  "weights": {
+    "aliasScore": 0.25,
+    "synonymScore": 0.15,
+    "entityScore": 0.20,
+    "tokenScore": 0.15,
+    "grammarScore": 0.05,
+    "similarityScore": 0.10,
+    "contextScore": 0.05,
+    "normalizationScore": 0.05
+  },
+  "penalties": {
+    "ambiguityPenalty": 0.15,
+    "negativeTokenPenalty": 0.50
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "technologies",
+  "version": "1.0.0",
+  "description": "General technology paradigms and engineering concepts",
+  "entities": [
+    {
+      "entityId": "ENT_TECH_DEVOPS",
+      "type": "technologies",
+      "name": "DevOps & CI/CD",
+      "canonical": "devops",
+      "aliases": ["devops", "ci/cd", "continuous integration"],
+      "category": "infrastructure",
+      "attributes": { "domain": "devops" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_TECH_IOT",
+      "type": "technologies",
+      "name": "Internet of Things",
+      "canonical": "iot",
+      "aliases": ["internet of things", "iot", "smart devices"],
+      "category": "embedded",
+      "attributes": { "domain": "hardware-software" },
+      "confidence": 1.0
+    }
+  ]
+}

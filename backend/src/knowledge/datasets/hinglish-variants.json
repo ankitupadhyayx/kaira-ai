@@ -1,0 +1,35 @@
+{
+  "datasetId": "hinglish_variants",
+  "name": "Hinglish Language Variants Dataset",
+  "version": "1.0.0",
+  "description": "Romanized Hindi/Hinglish phrase mappings to canonical English intent terms",
+  "entries": [
+    { "term": "batao", "canonical": "tell", "confidence": 0.90, "category": "hinglish" },
+    { "term": "batayein", "canonical": "tell", "confidence": 0.90, "category": "hinglish" },
+    { "term": "kya", "canonical": "what", "confidence": 0.90, "category": "hinglish" },
+    { "term": "kaun", "canonical": "who", "confidence": 0.90, "category": "hinglish" },
+    { "term": "paisa", "canonical": "pricing", "confidence": 0.90, "category": "pricing" },
+    { "term": "paise", "canonical": "pricing", "confidence": 0.90, "category": "pricing" },
+    { "term": "dam", "canonical": "cost", "confidence": 0.90, "category": "pricing" },
+    { "term": "naukri", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "jobi", "canonical": "job", "confidence": 0.90, "category": "career" },
+    { "term": "kahan", "canonical": "location", "confidence": 0.90, "category": "location" },
+    { "term": "kaha", "canonical": "where", "confidence": 0.90, "category": "location" },
+    { "term": "boss", "canonical": "ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "malik", "canonical": "owner ceo", "confidence": 0.90, "category": "leadership" },
+    { "term": "chutti", "canonical": "leave", "confidence": 0.95, "category": "hr" },
+    { "term": "ceo kaun hai", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "boss kaun hai", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "malik kaun hai", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "founder kaun hai", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "ceo bro", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "ur ceo", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "founded u guys", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "tell me founder", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "need founder info", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "ceo pls", "canonical": "ceo", "confidence": 0.95, "category": "leadership" },
+    { "term": "naukri chahiye", "canonical": "career", "confidence": 0.95, "category": "career" },
+    { "term": "office kahan hai", "canonical": "location", "confidence": 0.95, "category": "location" }
+  ]
+}
+

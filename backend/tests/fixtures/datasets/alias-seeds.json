@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "Seed dataset for alias test case generation. Each seed entry defines an original term, expected resolution, dataset type, and alias variants. The AliasTestGenerator expands these to produce up to 10,000 test cases.",
+  "seeds": [
+    { "id": "A001", "originalTerm": "ceo", "expectedResolution": "chief executive officer", "datasetType": "acronyms", "variants": ["c.e.o", "CEO", "C.E.O", "chief exec", "grp ceo", "group ceo"], "tags": ["leadership"] },
+    { "id": "A002", "originalTerm": "cto", "expectedResolution": "chief technology officer", "datasetType": "acronyms", "variants": ["c.t.o", "CTO", "head of tech", "vp engineering", "chief tech"], "tags": ["leadership"] },
+    { "id": "A003", "originalTerm": "ai", "expectedResolution": "artificial intelligence", "datasetType": "acronyms", "variants": ["a.i", "A.I.", "ml", "machine learning", "deep learning"], "tags": ["services"] },
+    { "id": "A004", "originalTerm": "blockchain", "expectedResolution": "blockchain technology", "datasetType": "aliases", "variants": ["block chain", "distributed ledger", "web3", "crypto tech"], "tags": ["services"] },
+    { "id": "A005", "originalTerm": "iot", "expectedResolution": "internet of things", "datasetType": "acronyms", "variants": ["i.o.t", "IoT", "smart devices", "connected devices"], "tags": ["services"] },
+    { "id": "A006", "originalTerm": "aws", "expectedResolution": "amazon web services", "datasetType": "acronyms", "variants": ["amazon cloud", "amazon aws", "AWS"], "tags": ["cloud"] },
+    { "id": "A007", "originalTerm": "gcp", "expectedResolution": "google cloud platform", "datasetType": "acronyms", "variants": ["google cloud", "google gcp", "GCP"], "tags": ["cloud"] },
+    { "id": "A008", "originalTerm": "azure", "expectedResolution": "microsoft azure", "datasetType": "aliases", "variants": ["ms azure", "microsoft cloud", "azure cloud"], "tags": ["cloud"] },
+    { "id": "A009", "originalTerm": "nodejs", "expectedResolution": "node js", "datasetType": "aliases", "variants": ["node.js", "node", "node js", "nodejs framework"], "tags": ["technology"] },
+    { "id": "A010", "originalTerm": "reactjs", "expectedResolution": "react js", "datasetType": "aliases", "variants": ["react.js", "react", "react framework", "reactjs library"], "tags": ["technology"] },
+    { "id": "A011", "originalTerm": "hr", "expectedResolution": "human resources", "datasetType": "acronyms", "variants": ["h.r", "HR", "human resource", "people team"], "tags": ["hr"] },
+    { "id": "A012", "originalTerm": "leave", "expectedResolution": "leave policy", "datasetType": "aliases", "variants": ["leave policy", "time off", "vacation", "annual leave", "pl", "casual leave"], "tags": ["hr"] },
+    { "id": "A013", "originalTerm": "hq", "expectedResolution": "headquarters", "datasetType": "acronyms", "variants": ["h.q", "HQ", "head office", "main office", "corporate office"], "tags": ["location"] },
+    { "id": "A014", "originalTerm": "delhi", "expectedResolution": "delhi office", "datasetType": "aliases", "variants": ["new delhi", "delhi ncr", "ncr office", "delhi hq"], "tags": ["location"] },
+    { "id": "A015", "originalTerm": "noida", "expectedResolution": "noida office", "datasetType": "aliases", "variants": ["noida sec 62", "noida office", "sector 62"], "tags": ["location"] },
+    { "id": "A016", "originalTerm": "kaisa hai", "expectedResolution": "how are you", "datasetType": "hinglish_variants", "variants": ["kaisa ho", "kaise ho", "kya haal hai"], "tags": ["greeting", "hinglish"] },
+    { "id": "A017", "originalTerm": "kya chal raha hai", "expectedResolution": "what is going on", "datasetType": "hinglish_variants", "variants": ["kya ho raha hai", "kya chal rha hai", "kya chalra hai"], "tags": ["greeting", "hinglish"] },
+    { "id": "A018", "originalTerm": "apply karna hai", "expectedResolution": "i want to apply", "datasetType": "hinglish_variants", "variants": ["apply karna chahta hoon", "job apply"], "tags": ["career", "hinglish"] },
+    { "id": "A019", "originalTerm": "devops", "expectedResolution": "development operations", "datasetType": "aliases", "variants": ["dev ops", "ci cd", "cicd", "deployment pipeline"], "tags": ["technology"] },
+    { "id": "A020", "originalTerm": "api", "expectedResolution": "application programming interface", "datasetType": "acronyms", "variants": ["a.p.i", "APIs", "rest api", "graphql api", "web service"], "tags": ["technology"] }
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "identity": {
+      "id": "KND_LOC_USA_001",
+      "slug": "usa-regional-office-boston",
+      "domain": "locations",
+      "category": "regional-office",
+      "subcategory": "usa"
+    },
+    "content": {
+      "title": "Mobiloitte USA Regional Office — Boston, MA",
+      "short_summary": "Boston, Massachusetts regional office serving North American enterprise clients.",
+      "detailed_description": "Mobiloitte's USA Regional Office is situated in Boston, Massachusetts. The Boston team handles North American client relationships, project discovery, solution architecture, and enterprise account management.",
+      "highlights": [
+        "Location: Boston, Massachusetts, USA",
+        "Hotline: +1-781-808-3488",
+        "Coverage: North America (EST & PST Time Zones)",
+        "Services: On-site discovery, IT Staff Augmentation, Enterprise Sales"
+      ],
+      "examples": [
+        "Does Mobiloitte have an office in USA?",
+        "Mobiloitte Boston office address"
+      ],
+      "notes": ["USA location record"]
+    },
+    "search": {
+      "aliases": [
+        "usa office",
+        "boston office",
+        "us office",
+        "mobiloitte usa",
+        "america office"
+      ],
+      "synonyms": [
+        "north america office",
+        "us representative office"
+      ],
+      "abbreviations": [
+        "usa",
+        "us"
+      ],
+      "keywords": [
+        "usa",
+        "boston",
+        "massachusetts",
+        "america",
+        "+1-781-808-3488",
+        "est"
+      ],
+      "search_phrases": [
+        "does mobiloitte have an office in usa",
+        "mobiloitte boston office location"
+      ],
+      "common_user_questions": [
+        "Where is Mobiloitte's USA office located?"
+      ],
+      "misspellings": [
+        "bostn",
+        "bston"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ka usa me office hai kya"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Global Offices Directory",
+        "Head Office India"
+      ],
+      "related_domains": [
+        "locations"
+      ],
+      "related_ids": [
+        "KND_LOC_ALL_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "usa",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "usa"
+      ],
+      "department_tags": [
+        "facilities"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": 5000,
+    "host": "0.0.0.0",
+    "env": "development"
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "security": {
+    "corsOrigin": "http://localhost:3000",
+    "rateLimit": {
+      "windowMs": 900000,
+      "max": 100
+    }
+  },
+  "featureFlags": {
+    "fastPathEnabled": true,
+    "gibberishDetectionEnabled": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "domain": "phone-types",
+  "entities": [
+    { "id": "PHONE001", "name": "Sales Phone", "canonicalName": "Sales Support Phone", "entityType": "phone_types", "aliases": ["sales phone", "headquarters phone", "office contact number"] },
+    { "id": "PHONE002", "name": "HR Phone", "canonicalName": "HR Helpline", "entityType": "phone_types", "aliases": ["hr contact number", "recruitment phone"] }
+  ]
+}

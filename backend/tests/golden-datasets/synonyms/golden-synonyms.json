@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "category": "synonyms",
+  "description": "Golden evaluation dataset for synonym resolution test cases",
+  "entries": [
+    {
+      "id": "SYN_001",
+      "input": "Who is the managing director?",
+      "expectedNormalizedQuery": "who is the managing director",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["Managing Director"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "formal",
+      "tags": ["synonym", "leadership"]
+    },
+    {
+      "id": "SYN_002",
+      "input": "What is the price rate card?",
+      "expectedNormalizedQuery": "what is the price rate card",
+      "expectedIntent": "PRICING.QUOTE",
+      "expectedEntities": ["Pricing"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Pricing & Budget Estimation",
+      "tier": "core",
+      "queryStyle": "corporate",
+      "tags": ["synonym", "pricing"]
+    }
+  ]
+}

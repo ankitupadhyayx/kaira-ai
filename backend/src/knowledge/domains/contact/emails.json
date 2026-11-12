@@ -1,0 +1,124 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_EMAIL_001",
+      "slug": "official-email-contacts",
+      "domain": "contact",
+      "category": "email",
+      "subcategory": "communication"
+    },
+    "content": {
+      "title": "Mobiloitte Official Department Email Addresses",
+      "short_summary": "Official email contacts for Sales, HR Careers, and Support desks.",
+      "detailed_description": "Official communication channels at Mobiloitte: Business Inquiries & Sales (sales@mobiloitte.com), HR & Careers (hr@mobiloitte.com), Customer Support & Helpdesk (support@mobiloitte.com), and General Information (info@mobiloitte.com).",
+      "highlights": [
+        "Sales & Business Inquiries: sales@mobiloitte.com",
+        "HR & Recruitment Careers: hr@mobiloitte.com",
+        "Customer & Technical Support: support@mobiloitte.com",
+        "General Inquiries: info@mobiloitte.com"
+      ],
+      "examples": [
+        "What is Mobiloitte's email address?",
+        "Email ID for sales inquiry",
+        "Mobiloitte HR email"
+      ],
+      "notes": ["Master email contact record"]
+    },
+    "search": {
+      "aliases": [
+        "email address",
+        "mobiloitte email",
+        "contact email",
+        "sales email",
+        "hr email"
+      ],
+      "synonyms": [
+        "email contact",
+        "mail id"
+      ],
+      "abbreviations": [
+        "email",
+        "mail"
+      ],
+      "keywords": [
+        "email",
+        "mail",
+        "sales@mobiloitte.com",
+        "hr@mobiloitte.com",
+        "support@mobiloitte.com",
+        "contact"
+      ],
+      "search_phrases": [
+        "what is mobiloitte email address",
+        "mobiloitte sales email id"
+      ],
+      "common_user_questions": [
+        "How can I email Mobiloitte?",
+        "What is the sales email address?"
+      ],
+      "misspellings": [
+        "emial",
+        "e-mail",
+        "mailid"
+      ],
+      "hinglish_variants": [
+        "email id kya hai",
+        "mobiloitte ka mail id batao"
+      ],
+      "plural_forms": [
+        "emails"
+      ],
+      "singular_forms": [
+        "email"
+      ]
+    },
+    "relationships": {
+      "related_topics": [
+        "Phone Contacts",
+        "Office Addresses"
+      ],
+      "related_domains": [
+        "contact"
+      ],
+      "related_ids": [
+        "KND_CNT_ADDR_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "contact"
+      ],
+      "department_tags": [
+        "communication"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

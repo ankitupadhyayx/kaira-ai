@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "description": "Seed dataset for multi-intent test case generation. Each entry defines two independent clauses, expected intents, and list of conjunctions to combine them with. The MultiIntentTestGenerator permutes these to produce up to 3,000 cases.",
+  "seeds": [
+    { "id": "MI001", "firstClause": "who is the ceo", "secondClause": "where is your delhi office", "expectedIntents": ["LEADERSHIP.CEO", "COMPANY.LOCATION"], "conjunctions": ["and", "also", "and also", "as well as", "plus", "additionally"] },
+    { "id": "MI002", "firstClause": "what services do you offer", "secondClause": "what is your contact email", "expectedIntents": ["SERVICE.AI", "CONTACT.EMAIL"], "conjunctions": ["and", "also", "as well as", "furthermore"] },
+    { "id": "MI003", "firstClause": "tell me about blockchain", "secondClause": "do you offer cloud services", "expectedIntents": ["SERVICE.BLOCKCHAIN", "SERVICE.CLOUD"], "conjunctions": ["and", "also", "along with", "plus"] },
+    { "id": "MI004", "firstClause": "who founded the company", "secondClause": "how many employees do you have", "expectedIntents": ["LEADERSHIP.CEO", "COMPANY.ABOUT"], "conjunctions": ["and", "also", "additionally", "furthermore"] },
+    { "id": "MI005", "firstClause": "how can i apply for a job", "secondClause": "what technologies do you use", "expectedIntents": ["CAREER.APPLY", "SERVICE.AI"], "conjunctions": ["and", "also", "as well as"] },
+    { "id": "MI006", "firstClause": "what is the leave policy", "secondClause": "who do i contact in hr", "expectedIntents": ["HR.LEAVE", "CONTACT.EMAIL"], "conjunctions": ["and", "also", "plus", "along with"] },
+    { "id": "MI007", "firstClause": "do you work in iot", "secondClause": "do you have a mobile app team", "expectedIntents": ["SERVICE.IOT", "SERVICE.MOBILE"], "conjunctions": ["and", "also", "as well as", "furthermore"] },
+    { "id": "MI008", "firstClause": "what cloud platforms do you support", "secondClause": "are you hiring engineers", "expectedIntents": ["SERVICE.CLOUD", "CAREER.APPLY"], "conjunctions": ["and", "also", "along with", "additionally"] }
+  ]
+}

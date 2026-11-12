@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "description": "Golden Evaluation Dataset for Knowledge Base Engine",
+  "records": [
+    {
+      "identity": {
+        "id": "KND_LEAD_CEO_001",
+        "slug": "chief-executive-officer",
+        "domain": "leadership",
+        "category": "executive-leadership",
+        "subcategory": "c-suite"
+      },
+      "content": {
+        "title": "Chief Executive Officer — Mobiloitte",
+        "short_summary": "Jagdish Harsh is the Founder and Group CEO of Mobiloitte.",
+        "detailed_description": "Jagdish Harsh serves as the Chief Executive Officer of Mobiloitte Group. He leads global business operations and corporate strategy across India, USA, UK, UAE, and Singapore offices.",
+        "highlights": [
+          "Founder & Group CEO of Mobiloitte",
+          "20+ years of technology and enterprise leadership",
+          "Drives AI, Web3, Mobile, and Cloud innovation"
+        ],
+        "examples": ["Who is the CEO?", "Tell me about Jagdish Harsh"],
+        "notes": ["Primary executive leadership contact"]
+      },
+      "search": {
+        "aliases": ["group ceo", "founding director", "company head", "owner", "boss", "jagdish harsh"],
+        "synonyms": ["managing director", "head of company", "company president", "proprietor"],
+        "abbreviations": ["ceo", "md"],
+        "keywords": ["ceo", "founder", "jagdish", "harsh", "mobiloitte", "leader", "executive", "head"],
+        "search_phrases": ["who is the ceo of mobiloitte", "who founded mobiloitte", "who runs the company"],
+        "common_user_questions": ["Who is the CEO?", "Who is Jagdish Harsh?"],
+        "misspellings": ["ceoo", "coe", "cwo", "seoo"],
+        "hinglish_variants": ["ceo kaun hai", "company ka boss kaun hai", "malik kaun hai"],
+        "plural_forms": ["ceos"],
+        "singular_forms": ["ceo"]
+      },
+      "relationships": {
+        "related_topics": ["Executive Team", "Company History", "Global Locations"],
+        "related_domains": ["company", "locations", "contact"],
+        "related_ids": ["KND_COMP_OVERVIEW_001"],
+        "parent_id": null,
+        "children_ids": []
+      },
+      "metadata": {
+        "version": "1.0.0",
+        "created_at": "2026-07-30T10:00:00.000Z",
+        "updated_at": "2026-07-30T10:00:00.000Z",
+        "created_by": "admin",
+        "updated_by": "admin",
+        "review_date": "2027-01-01",
+        "language": "en",
+        "region": "global",
+        "source": "internal",
+        "confidence": 1.0,
+        "priority": 1
+      },
+      "status": "active",
+      "tags": {
+        "technology_tags": ["leadership", "management"],
+        "business_tags": ["executive", "corporate"],
+        "department_tags": ["executive"],
+        "industry_tags": ["information-technology"]
+      },
+      "references": {
+        "official_references": ["https://www.mobiloitte.com/leadership"],
+        "documentation_urls": ["https://www.mobiloitte.com/about-us"],
+        "internal_references": ["REF_EXEC_LEADERSHIP_2026"],
+        "external_references": ["https://linkedin.com/in/jagdishharsh"]
+      },
+      "future_expansion": {}
+    }
+  ]
+}

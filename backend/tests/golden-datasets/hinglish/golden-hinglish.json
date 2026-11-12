@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "category": "hinglish",
+  "description": "Golden evaluation dataset for Hinglish and Romanized Hindi queries",
+  "entries": [
+    {
+      "id": "HING_001",
+      "input": "Who is ur CEO bro?",
+      "expectedNormalizedQuery": "who is your ceo brother",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "hinglish",
+      "tags": ["hinglish", "informal"]
+    },
+    {
+      "id": "HING_002",
+      "input": "ceo kaun hai",
+      "expectedNormalizedQuery": "ceo who is",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Leadership & Executive Team",
+      "tier": "core",
+      "queryStyle": "hinglish",
+      "tags": ["hinglish", "short"]
+    }
+  ]
+}

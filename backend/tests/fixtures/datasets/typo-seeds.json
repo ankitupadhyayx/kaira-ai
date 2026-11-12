@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "Seed dataset for typo test case generation. Each entry defines a correct term, known typo variants, and mutation type. The TypoTestGenerator expands these plus generates keyboard-adjacent mutations to reach 5,000 cases.",
+  "seeds": [
+    { "id": "T001", "correctTerm": "ceo", "typoVariants": ["ceo", "ceo ", " ceo", "ceoo", "coe", "eco"], "mutationType": "transposition" },
+    { "id": "T002", "correctTerm": "blockchain", "typoVariants": ["blokchain", "blockhain", "blockchain ", "blcokchain", "blochcain"], "mutationType": "transposition" },
+    { "id": "T003", "correctTerm": "artificial intelligence", "typoVariants": ["artifical intelligence", "artifical inteligence", "artficial intelligence", "artificial intelligance"], "mutationType": "deletion" },
+    { "id": "T004", "correctTerm": "headquarters", "typoVariants": ["headquaters", "headqurters", "headqaurters", "hq", "headquartrs"], "mutationType": "deletion" },
+    { "id": "T005", "correctTerm": "internship", "typoVariants": ["internsip", "intersnhip", "internshp", "interenship", "internshiip"], "mutationType": "insertion" },
+    { "id": "T006", "correctTerm": "careers", "typoVariants": ["careerr", "careeers", "caeers", "carrers", "careees"], "mutationType": "substitution" },
+    { "id": "T007", "correctTerm": "services", "typoVariants": ["servises", "servces", "servuces", "srvices", "servies"], "mutationType": "substitution" },
+    { "id": "T008", "correctTerm": "technology", "typoVariants": ["techology", "technolgy", "tecnology", "technoloy", "technoogy"], "mutationType": "deletion" },
+    { "id": "T009", "correctTerm": "contact", "typoVariants": ["contatc", "contcat", "cnotact", "conatct", "contac"], "mutationType": "transposition" },
+    { "id": "T010", "correctTerm": "leadership", "typoVariants": ["leadrship", "leadershp", "laedership", "leaedership", "leadershiip"], "mutationType": "deletion" },
+    { "id": "T011", "correctTerm": "machine learning", "typoVariants": ["mahcine learning", "machien learning", "machine leanring", "machine leraning"], "mutationType": "transposition" },
+    { "id": "T012", "correctTerm": "mobile", "typoVariants": ["moblie", "mobiel", "moblie", "mobie", "mboile"], "mutationType": "transposition" },
+    { "id": "T013", "correctTerm": "development", "typoVariants": ["developement", "developmnet", "devlopment", "develpoment", "developmet"], "mutationType": "insertion" },
+    { "id": "T014", "correctTerm": "training", "typoVariants": ["tarining", "tranining", "trianing", "trainging", "trainnig"], "mutationType": "transposition" },
+    { "id": "T015", "correctTerm": "office", "typoVariants": ["ofice", "offce", "offfice", "offiec", "ofifce"], "mutationType": "deletion" }
+  ]
+}

@@ -1,0 +1,20 @@
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  output: 'standalone',
+  async rewrites() {
+    return [
+      {
+        source: '/api/backend/:path*',
+        destination: `${process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:5000'}/:path*`,
+      },
+      {
+        source: '/api/ai/:path*',
+        destination: `${process.env.NEXT_PUBLIC_AI_SERVICE_URL || 'http://localhost:8000'}/:path*`,
+      },
+    ];
+  },
+};
+
+export default nextConfig;

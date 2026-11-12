@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "ambiguity",
+  "description": "Golden evaluation dataset for intent collision and ambiguity test cases",
+  "entries": [
+    {
+      "id": "AMBIG_001",
+      "input": "java",
+      "expectedNormalizedQuery": "java",
+      "expectedIntent": "CAREER.APPLY",
+      "expectedEntities": ["Java"],
+      "expectedConfidenceMin": 0.35,
+      "expectedConfidenceMax": 0.65,
+      "expectedClarification": "Are you interested in Java development services or applying for a Java developer role?",
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "Careers & Job Recruitment",
+      "tier": "ambiguity",
+      "queryStyle": "short",
+      "tags": ["ambiguity", "collision"]
+    }
+  ]
+}

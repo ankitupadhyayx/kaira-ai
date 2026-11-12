@@ -1,0 +1,17 @@
+{
+  "domain": "products",
+  "version": "1.0.0",
+  "description": "Proprietary software products, tools, and platforms",
+  "entities": [
+    {
+      "entityId": "ENT_PROD_KAIRA",
+      "type": "products",
+      "name": "Kaira AI Assistant",
+      "canonical": "kaira",
+      "aliases": ["kaira ai", "kaira assistant", "kaira bot"],
+      "category": "ai-platform",
+      "attributes": { "type": "virtual assistant" },
+      "confidence": 1.0
+    }
+  ]
+}

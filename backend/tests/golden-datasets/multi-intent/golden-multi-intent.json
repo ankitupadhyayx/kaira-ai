@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "multi-intent",
+  "description": "Golden evaluation dataset for multi-clause multi-intent queries",
+  "entries": [
+    {
+      "id": "MI_001",
+      "input": "Who is the CEO and where is your Noida office?",
+      "expectedNormalizedQuery": "who is the ceo and where is your noida office",
+      "expectedIntent": "LEADERSHIP.CEO",
+      "expectedEntities": ["CEO", "Noida"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 1,
+      "expectedResponseCategory": "Multi-Clause Intent Sequence",
+      "tier": "multi",
+      "queryStyle": "formal",
+      "tags": ["multi-intent", "conjunction"]
+    }
+  ]
+}

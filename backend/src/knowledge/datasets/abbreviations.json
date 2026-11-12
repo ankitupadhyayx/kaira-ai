@@ -1,0 +1,34 @@
+{
+  "datasetId": "abbreviations",
+  "name": "Enterprise Abbreviations Dataset",
+  "version": "1.0.0",
+  "description": "Standardized word abbreviations mapping to full canonical words",
+  "entries": [
+    { "term": "approx", "canonical": "approximately", "confidence": 0.95, "category": "general" },
+    { "term": "info", "canonical": "information", "confidence": 0.95, "category": "general" },
+    { "term": "dev", "canonical": "development", "confidence": 0.95, "category": "engineering" },
+    { "term": "tech", "canonical": "technology", "confidence": 0.95, "category": "engineering" },
+    { "term": "app", "canonical": "application", "confidence": 0.95, "category": "engineering" },
+    { "term": "mgmt", "canonical": "management", "confidence": 0.95, "category": "leadership" },
+    { "term": "dept", "canonical": "department", "confidence": 0.95, "category": "company" },
+    { "term": "loc", "canonical": "location", "confidence": 0.95, "category": "company" },
+    { "term": "hq", "canonical": "headquarters", "confidence": 0.95, "category": "company" },
+    { "term": "api", "canonical": "application programming interface", "confidence": 0.95, "category": "engineering" },
+    { "term": "sdk", "canonical": "software development kit", "confidence": 0.95, "category": "engineering" },
+    { "term": "jwt", "canonical": "json web token", "confidence": 0.95, "category": "security" },
+    { "term": "otp", "canonical": "one time password", "confidence": 0.95, "category": "security" },
+    { "term": "sso", "canonical": "single sign on", "confidence": 0.95, "category": "security" },
+    { "term": "qc", "canonical": "quality control", "confidence": 0.95, "category": "testing" },
+    { "term": "mvp", "canonical": "minimum viable product", "confidence": 0.95, "category": "business" },
+    { "term": "eta", "canonical": "estimated time of arrival", "confidence": 0.95, "category": "business" },
+    { "term": "poc", "canonical": "proof of concept", "confidence": 0.95, "category": "business" },
+    { "term": "crm", "canonical": "customer relationship management", "confidence": 0.95, "category": "business" },
+    { "term": "erp", "canonical": "enterprise resource planning", "confidence": 0.95, "category": "business" },
+    { "term": "cms", "canonical": "content management system", "confidence": 0.95, "category": "engineering" },
+    { "term": "cicd", "canonical": "continuous integration continuous deployment", "confidence": 0.95, "category": "engineering" },
+    { "term": "rag", "canonical": "retrieval augmented generation", "confidence": 0.95, "category": "engineering" },
+    { "term": "dl", "canonical": "deep learning", "confidence": 0.95, "category": "engineering" },
+    { "term": "nlp", "canonical": "natural language processing", "confidence": 0.95, "category": "engineering" }
+  ]
+}
+

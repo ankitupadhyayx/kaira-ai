@@ -1,0 +1,27 @@
+{
+  "domain": "departments",
+  "version": "1.0.0",
+  "description": "Internal business and organizational departments",
+  "entities": [
+    {
+      "entityId": "ENT_DEPT_HR",
+      "type": "departments",
+      "name": "Human Resources",
+      "canonical": "human resources",
+      "aliases": ["hr", "human resources", "recruitment team", "talent acquisition"],
+      "category": "operations",
+      "attributes": { "email": "hr@mobiloitte.com" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_DEPT_SALES",
+      "type": "departments",
+      "name": "Sales & Business Development",
+      "canonical": "sales department",
+      "aliases": ["sales", "business development", "sales team"],
+      "category": "commercial",
+      "attributes": { "email": "sales@mobiloitte.com" },
+      "confidence": 1.0
+    }
+  ]
+}

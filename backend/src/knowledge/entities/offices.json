@@ -1,0 +1,27 @@
+{
+  "domain": "offices",
+  "version": "1.0.0",
+  "description": "Physical corporate offices and regional branches",
+  "entities": [
+    {
+      "entityId": "ENT_OFF_HQ_DELHI",
+      "type": "offices",
+      "name": "New Delhi Headquarters",
+      "canonical": "new delhi hq",
+      "aliases": ["delhi office", "delhi hq", "head office delhi", "india office"],
+      "category": "headquarters",
+      "attributes": { "country": "India", "city": "New Delhi" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_OFF_USA",
+      "type": "offices",
+      "name": "USA Regional Office",
+      "canonical": "usa regional office",
+      "aliases": ["us office", "usa office", "american branch"],
+      "category": "regional office",
+      "attributes": { "country": "USA" },
+      "confidence": 1.0
+    }
+  ]
+}

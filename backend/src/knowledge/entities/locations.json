@@ -1,0 +1,47 @@
+{
+  "domain": "locations",
+  "version": "1.0.0",
+  "description": "Geographic locations, countries, and cities",
+  "entities": [
+    {
+      "entityId": "ENT_LOC_INDIA",
+      "type": "locations",
+      "name": "India",
+      "canonical": "india",
+      "aliases": ["india", "in", "bharat"],
+      "category": "country",
+      "attributes": { "region": "Asia-Pacific" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LOC_USA",
+      "type": "locations",
+      "name": "United States",
+      "canonical": "united states",
+      "aliases": ["usa", "us", "united states", "america"],
+      "category": "country",
+      "attributes": { "region": "North America" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LOC_UK",
+      "type": "locations",
+      "name": "United Kingdom",
+      "canonical": "united kingdom",
+      "aliases": ["uk", "united kingdom", "britain"],
+      "category": "country",
+      "attributes": { "region": "Europe" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LOC_SINGAPORE",
+      "type": "locations",
+      "name": "Singapore",
+      "canonical": "singapore",
+      "aliases": ["singapore", "sg"],
+      "category": "country/city",
+      "attributes": { "region": "Southeast Asia" },
+      "confidence": 1.0
+    }
+  ]
+}

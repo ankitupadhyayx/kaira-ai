@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@ingestion/*": ["src/ingestion/*"],
+      "@normalization/*": ["src/normalization/*"],
+      "@engines/*": ["src/engines/*"],
+      "@knowledge/*": ["src/knowledge/*"],
+      "@conversation/*": ["src/conversation/*"],
+      "@arbitration/*": ["src/arbitration/*"],
+      "@fallback-gate/*": ["src/fallback-gate/*"],
+      "@observability/*": ["src/observability/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "tests/**/*"]
+}

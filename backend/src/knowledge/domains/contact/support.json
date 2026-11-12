@@ -1,0 +1,118 @@
+[
+  {
+    "identity": {
+      "id": "KND_CNT_SUPP_001",
+      "slug": "technical-support-desk",
+      "domain": "contact",
+      "category": "support",
+      "subcategory": "helpdesk"
+    },
+    "content": {
+      "title": "Mobiloitte Customer & Technical Support Desk",
+      "short_summary": "24/7 technical helpdesk, customer support, and SLA maintenance contact.",
+      "detailed_description": "Mobiloitte's dedicated customer support desk provides 24/7 SLA maintenance, bug fixes, server uptime monitoring, and technical helpdesk assistance for deployed enterprise applications. Contact support via email at support@mobiloitte.com or call +91-9999525501.",
+      "highlights": [
+        "24/7 / 365 Technical Support Desk Availability",
+        "Support Email: support@mobiloitte.com",
+        "SLA Maintenance & Critical Infrastructure Patching",
+        "Dedicated Ticketing & Incident Resolution Portal"
+      ],
+      "examples": [
+        "How to reach Mobiloitte support?",
+        "Mobiloitte customer care number"
+      ],
+      "notes": ["Support contact record"]
+    },
+    "search": {
+      "aliases": [
+        "support contact",
+        "technical support",
+        "customer care",
+        "helpdesk",
+        "support email"
+      ],
+      "synonyms": [
+        "customer support",
+        "incident response",
+        "service desk"
+      ],
+      "abbreviations": [
+        "supp"
+      ],
+      "keywords": [
+        "support",
+        "helpdesk",
+        "technical",
+        "customer",
+        "sla",
+        "support@mobiloitte.com"
+      ],
+      "search_phrases": [
+        "how to reach mobiloitte support team",
+        "mobiloitte technical customer care"
+      ],
+      "common_user_questions": [
+        "How do I raise a support ticket with Mobiloitte?"
+      ],
+      "misspellings": [
+        "suport",
+        "helpesk"
+      ],
+      "hinglish_variants": [
+        "support team se kaise baat karein",
+        "helpdesk number kya hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Phone Hotlines",
+        "Office Hours"
+      ],
+      "related_domains": [
+        "contact",
+        "support"
+      ],
+      "related_ids": [
+        "KND_CNT_PHONE_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "support"
+      ],
+      "department_tags": [
+        "helpdesk"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

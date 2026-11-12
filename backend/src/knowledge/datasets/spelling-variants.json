@@ -1,0 +1,15 @@
+{
+  "datasetId": "spelling_variants",
+  "name": "Spelling Variants Dataset",
+  "version": "1.0.0",
+  "description": "UK vs US spelling variations mapping to canonical terms",
+  "entries": [
+    { "term": "organisation", "canonical": "organization", "confidence": 0.98, "category": "spelling" },
+    { "term": "organise", "canonical": "organize", "confidence": 0.98, "category": "spelling" },
+    { "term": "colour", "canonical": "color", "confidence": 0.98, "category": "spelling" },
+    { "term": "centre", "canonical": "center", "confidence": 0.98, "category": "spelling" },
+    { "term": "modelling", "canonical": "modeling", "confidence": 0.98, "category": "spelling" },
+    { "term": "customise", "canonical": "customize", "confidence": 0.98, "category": "spelling" },
+    { "term": "optimise", "canonical": "optimize", "confidence": 0.98, "category": "spelling" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "domain": "programming_languages",
+  "version": "1.0.0",
+  "description": "Programming languages used in enterprise software development",
+  "entities": [
+    {
+      "entityId": "ENT_LANG_TS",
+      "type": "programming_languages",
+      "name": "TypeScript",
+      "canonical": "typescript",
+      "aliases": ["typescript", "ts"],
+      "category": "language",
+      "attributes": { "typed": true, "family": "javascript" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LANG_JS",
+      "type": "programming_languages",
+      "name": "JavaScript",
+      "canonical": "javascript",
+      "aliases": ["javascript", "js"],
+      "category": "language",
+      "attributes": { "typed": false, "family": "ecmascript" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LANG_PYTHON",
+      "type": "programming_languages",
+      "name": "Python",
+      "canonical": "python",
+      "aliases": ["python", "py"],
+      "category": "language",
+      "attributes": { "typed": false, "family": "python" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LANG_JAVA",
+      "type": "programming_languages",
+      "name": "Java",
+      "canonical": "java",
+      "aliases": ["java"],
+      "category": "language",
+      "attributes": { "typed": true, "family": "jvm" },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_LANG_SOLIDITY",
+      "type": "programming_languages",
+      "name": "Solidity",
+      "canonical": "solidity",
+      "aliases": ["solidity"],
+      "category": "blockchain-language",
+      "attributes": { "target": "ethereum-evm" },
+      "confidence": 1.0
+    }
+  ]
+}

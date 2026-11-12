@@ -1,0 +1,7 @@
+{
+  "domain": "people",
+  "entities": [
+    { "id": "P001", "name": "Jagdish Harsh", "canonicalName": "Jagdish Harsh", "entityType": "leadership", "aliases": ["Jagdish", "Harsh Sir", "Founder Jagdish"], "attributes": { "role": "CEO & Founder", "department": "Executive" } },
+    { "id": "P002", "name": "Executive Team Member", "canonicalName": "Executive Leadership", "entityType": "leadership", "aliases": ["Board Member", "Director"], "attributes": { "role": "Executive Leadership" } }
+  ]
+}

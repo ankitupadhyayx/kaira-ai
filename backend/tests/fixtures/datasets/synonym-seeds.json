@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Seed dataset for synonym test case generation. Each entry defines a canonical term and a synonym group. The SynonymTestGenerator produces up to 5,000 cases by expanding each synonym in 3 casing variants.",
+  "seeds": [
+    { "id": "S001", "canonicalTerm": "artificial intelligence", "synonymGroup": ["ai", "machine intelligence", "machine learning", "deep learning", "ml", "neural networks", "cognitive computing"], "category": "services", "tags": ["technology"] },
+    { "id": "S002", "canonicalTerm": "chief executive officer", "synonymGroup": ["ceo", "group ceo", "managing director", "md", "president", "chairman"], "category": "leadership", "tags": ["leadership"] },
+    { "id": "S003", "canonicalTerm": "chief technology officer", "synonymGroup": ["cto", "head of technology", "vp engineering", "tech lead", "engineering head"], "category": "leadership", "tags": ["leadership"] },
+    { "id": "S004", "canonicalTerm": "blockchain", "synonymGroup": ["distributed ledger", "web3", "decentralized tech", "smart contracts", "crypto technology"], "category": "services", "tags": ["technology"] },
+    { "id": "S005", "canonicalTerm": "internet of things", "synonymGroup": ["iot", "connected devices", "smart devices", "embedded systems", "edge devices"], "category": "services", "tags": ["technology"] },
+    { "id": "S006", "canonicalTerm": "cloud computing", "synonymGroup": ["cloud", "cloud services", "cloud infrastructure", "hosted services", "saas", "paas", "iaas"], "category": "cloud", "tags": ["cloud"] },
+    { "id": "S007", "canonicalTerm": "human resources", "synonymGroup": ["hr", "people team", "talent team", "talent management", "people operations"], "category": "hr", "tags": ["hr"] },
+    { "id": "S008", "canonicalTerm": "leave policy", "synonymGroup": ["time off policy", "vacation policy", "pl policy", "annual leave", "sick leave", "casual leave"], "category": "hr", "tags": ["hr"] },
+    { "id": "S009", "canonicalTerm": "software development", "synonymGroup": ["coding", "programming", "software engineering", "development", "dev", "custom software"], "category": "services", "tags": ["technology"] },
+    { "id": "S010", "canonicalTerm": "mobile application", "synonymGroup": ["mobile app", "app development", "ios app", "android app", "cross platform app", "hybrid app"], "category": "services", "tags": ["technology"] }
+  ]
+}

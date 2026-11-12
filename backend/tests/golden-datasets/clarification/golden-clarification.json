@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "clarification",
+  "description": "Golden evaluation dataset for clarification triggers",
+  "entries": [
+    {
+      "id": "CLAR_001",
+      "input": "training",
+      "expectedNormalizedQuery": "training",
+      "expectedIntent": "CAREER.TRAINING",
+      "expectedEntities": ["Training"],
+      "expectedConfidenceMin": 0.40,
+      "expectedConfidenceMax": 0.65,
+      "expectedClarification": "Are you interested in internal employee training programs or tech internships?",
+      "expectedFallback": null,
+      "expectedPriority": 3,
+      "expectedResponseCategory": "Employee Training & Skill Development",
+      "tier": "ambiguity",
+      "queryStyle": "short",
+      "tags": ["clarification", "ambiguity"]
+    }
+  ]
+}

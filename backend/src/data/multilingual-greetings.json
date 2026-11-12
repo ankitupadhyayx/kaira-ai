@@ -1,0 +1,337 @@
+{
+  "version": "1.0.0",
+  "languagesSupported": [
+    "en",
+    "hi",
+    "pa",
+    "ta",
+    "gu",
+    "ar",
+    "fr",
+    "es",
+    "de",
+    "it",
+    "pt",
+    "ja",
+    "ko",
+    "zh",
+    "te",
+    "bn",
+    "mr",
+    "kn",
+    "ml",
+    "or",
+    "as",
+    "ur",
+    "ru",
+    "tr",
+    "nl",
+    "pl",
+    "sv",
+    "id",
+    "vi",
+    "th"
+  ],
+  "greetings": [
+    {
+      "code": "en",
+      "language": "English",
+      "phrases": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "howdy",
+        "sup",
+        "greetings",
+        "what's up",
+        "top of the morning"
+      ]
+    },
+    {
+      "code": "hi",
+      "language": "Hindi",
+      "phrases": [
+        "namaste",
+        "namaskar",
+        "ram ram",
+        "pranam",
+        "shubh prabhat",
+        "shubh sandhya",
+        "radhe radhe",
+        "jai shree ram",
+        "kya hal hai",
+        "aur batao"
+      ]
+    },
+    {
+      "code": "pa",
+      "language": "Punjabi",
+      "phrases": [
+        "sat sri akal",
+        "sasriakal",
+        "sat sri akal ji",
+        "ki hal hai"
+      ]
+    },
+    {
+      "code": "ta",
+      "language": "Tamil",
+      "phrases": [
+        "vanakkam",
+        "vanakam",
+        "vanakkam ji",
+        "வணக்கம்"
+      ]
+    },
+    {
+      "code": "gu",
+      "language": "Gujarati",
+      "phrases": [
+        "kem cho",
+        "khem cho",
+        "kem cho ji",
+        "jai shree krishna"
+      ]
+    },
+    {
+      "code": "ar",
+      "language": "Arabic",
+      "phrases": [
+        "assalamu alaikum",
+        "salam",
+        "marhaban",
+        "ahlan wa sahlan",
+        "ahlan"
+      ]
+    },
+    {
+      "code": "fr",
+      "language": "French",
+      "phrases": [
+        "bonjour",
+        "salut",
+        "coucou",
+        "bonsoir",
+        "bienvenue"
+      ]
+    },
+    {
+      "code": "es",
+      "language": "Spanish",
+      "phrases": [
+        "hola",
+        "buenas",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "que tal"
+      ]
+    },
+    {
+      "code": "de",
+      "language": "German",
+      "phrases": [
+        "hallo",
+        "guten tag",
+        "guten morgen",
+        "guten abend",
+        "moin"
+      ]
+    },
+    {
+      "code": "it",
+      "language": "Italian",
+      "phrases": [
+        "ciao",
+        "buongiorno",
+        "salve",
+        "buonasera"
+      ]
+    },
+    {
+      "code": "pt",
+      "language": "Portuguese",
+      "phrases": [
+        "ola",
+        "olá",
+        "bom dia",
+        "boa tarde",
+        "boa noite"
+      ]
+    },
+    {
+      "code": "ja",
+      "language": "Japanese",
+      "phrases": [
+        "konnichiwa",
+        "konbanwa",
+        "ohayou",
+        "ohayou gozaimasu",
+        "irasshaimase"
+      ]
+    },
+    {
+      "code": "ko",
+      "language": "Korean",
+      "phrases": [
+        "annyeong",
+        "annyeonghaseyo",
+        "eosseo oseyo"
+      ]
+    },
+    {
+      "code": "zh",
+      "language": "Chinese",
+      "phrases": [
+        "ni hao",
+        "nihao",
+        "nin hao",
+        "zao an",
+        "wan an"
+      ]
+    },
+    {
+      "code": "te",
+      "language": "Telugu",
+      "phrases": [
+        "namaskaram",
+        "namaste",
+        "నమస్కారం",
+        "bagunnara"
+      ]
+    },
+    {
+      "code": "bn",
+      "language": "Bengali",
+      "phrases": [
+        "nomoshkar",
+        "kemon acho",
+        "ki khobor",
+        "নমস্কার"
+      ]
+    },
+    {
+      "code": "mr",
+      "language": "Marathi",
+      "phrases": [
+        "namaskar",
+        "kasakai",
+        "kasa aahat"
+      ]
+    },
+    {
+      "code": "kn",
+      "language": "Kannada",
+      "phrases": [
+        "namaskara",
+        "namaskargalu"
+      ]
+    },
+    {
+      "code": "ml",
+      "language": "Malayalam",
+      "phrases": [
+        "namaskaram",
+        "നമസ്കാരം"
+      ]
+    },
+    {
+      "code": "or",
+      "language": "Odia",
+      "phrases": [
+        "namaskar",
+        "kenta achhen"
+      ]
+    },
+    {
+      "code": "as",
+      "language": "Assamese",
+      "phrases": [
+        "nomoskar",
+        "ki khabor"
+      ]
+    },
+    {
+      "code": "ur",
+      "language": "Urdu",
+      "phrases": [
+        "aadaab",
+        "adaab",
+        "assalamu alaikum"
+      ]
+    },
+    {
+      "code": "ru",
+      "language": "Russian",
+      "phrases": [
+        "privet",
+        "zdravstvuyte",
+        "dobriy den"
+      ]
+    },
+    {
+      "code": "tr",
+      "language": "Turkish",
+      "phrases": [
+        "merhaba",
+        "selam",
+        "gunaydin"
+      ]
+    },
+    {
+      "code": "nl",
+      "language": "Dutch",
+      "phrases": [
+        "hallo",
+        "goedemorgen",
+        "goedemiddag"
+      ]
+    },
+    {
+      "code": "pl",
+      "language": "Polish",
+      "phrases": [
+        "czesc",
+        "dzien dobry"
+      ]
+    },
+    {
+      "code": "sv",
+      "language": "Swedish",
+      "phrases": [
+        "hej",
+        "hejsan",
+        "god morgon"
+      ]
+    },
+    {
+      "code": "id",
+      "language": "Indonesian",
+      "phrases": [
+        "halo",
+        "selamat pagi",
+        "selamat siang"
+      ]
+    },
+    {
+      "code": "vi",
+      "language": "Vietnamese",
+      "phrases": [
+        "xin chao",
+        "chao ban"
+      ]
+    },
+    {
+      "code": "th",
+      "language": "Thai",
+      "phrases": [
+        "sawasdee",
+        "sawasdee krub",
+        "sawasdee ka"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "negative-cases",
+  "description": "Golden evaluation dataset for negative token penalization test cases",
+  "entries": [
+    {
+      "id": "NEG_001",
+      "input": "I do NOT want to apply for a job, tell me about your AI services",
+      "expectedNormalizedQuery": "i do not want to apply for a job tell me about your ai services",
+      "expectedIntent": "SERVICE.AI",
+      "expectedEntities": ["AI"],
+      "expectedConfidenceMin": 0.80,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "AI & Machine Learning Services",
+      "tier": "negative",
+      "queryStyle": "corporate",
+      "tags": ["negative", "penalization"]
+    }
+  ]
+}

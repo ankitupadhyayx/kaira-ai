@@ -1,0 +1,9 @@
+{
+  "domain": "business-units",
+  "entities": [
+    { "id": "BU001", "name": "AI & Data Labs", "canonicalName": "Artificial Intelligence Business Unit", "entityType": "departments", "aliases": ["AI Lab", "GenAI Practice", "Data Intelligence Unit"] },
+    { "id": "BU002", "name": "Blockchain Practice", "canonicalName": "Web3 & Blockchain Division", "entityType": "departments", "aliases": ["Web3 Lab", "Crypto Division", "Smart Contract Unit"] },
+    { "id": "BU003", "name": "Enterprise Cloud & DevOps", "canonicalName": "Cloud Infrastructure Unit", "entityType": "departments", "aliases": ["Cloud BU", "DevOps Division"] },
+    { "id": "BU004", "name": "Mobile & Web Engineering", "canonicalName": "Digital Engineering Division", "entityType": "departments", "aliases": ["App Dev Division", "Web Engineering Practice"] }
+  ]
+}

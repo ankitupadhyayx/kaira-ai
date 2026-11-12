@@ -1,0 +1,120 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_EXEC_001",
+      "slug": "executive-c-suite-leadership",
+      "domain": "leadership",
+      "category": "executives",
+      "subcategory": "c-suite"
+    },
+    "content": {
+      "title": "Mobiloitte C-Suite Executive Leadership",
+      "short_summary": "Chief Executive Officer (CEO), Chief Technology Officer (CTO), and Chief Operating Officer (COO).",
+      "detailed_description": "Mobiloitte's C-suite executive committee leads corporate governance, global technology architecture, financial operations, and project delivery. The executive team ensures seamless cross-office alignment across India, USA, UK, UAE, and Singapore.",
+      "highlights": [
+        "Chief Executive Officer (CEO) — Corporate Vision & Group Strategy",
+        "Chief Technology Officer (CTO) — Technology Architecture & R&D",
+        "Chief Operating Officer (COO) — Global Delivery & Operations",
+        "Chief Financial Officer (CFO) — Fiscal Management & Compliance"
+      ],
+      "examples": [
+        "Who is the CTO of Mobiloitte?",
+        "Mobiloitte executive c-suite"
+      ],
+      "notes": ["Executives record"]
+    },
+    "search": {
+      "aliases": [
+        "c-suite",
+        "executives",
+        "mobiloitte executives",
+        "cto",
+        "coo",
+        "cfo"
+      ],
+      "synonyms": [
+        "executive committee",
+        "c-level officers"
+      ],
+      "abbreviations": [
+        "exec",
+        "cto",
+        "coo",
+        "cfo"
+      ],
+      "keywords": [
+        "executives",
+        "c-suite",
+        "ceo",
+        "cto",
+        "coo",
+        "cfo",
+        "officers"
+      ],
+      "search_phrases": [
+        "who is the cto of mobiloitte",
+        "mobiloitte executive officers"
+      ],
+      "common_user_questions": [
+        "Who are Mobiloitte's executive officers?"
+      ],
+      "misspellings": [
+        "executiv",
+        "excutives"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ke cto kaun hain"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "CEO Profile",
+        "Leadership Overview"
+      ],
+      "related_domains": [
+        "leadership"
+      ],
+      "related_ids": [
+        "KND_LEAD_CEO_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "executives"
+      ],
+      "department_tags": [
+        "c-suite"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/leadership"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

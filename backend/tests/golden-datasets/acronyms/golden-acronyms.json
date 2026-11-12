@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "acronyms",
+  "description": "Golden evaluation dataset for acronym expansion test cases",
+  "entries": [
+    {
+      "id": "ACR_001",
+      "input": "Do you build LLM and RAG agents?",
+      "expectedNormalizedQuery": "do you build large language model and retrieval augmented generation agents",
+      "expectedIntent": "SERVICE.AI",
+      "expectedEntities": ["LLM", "RAG"],
+      "expectedConfidenceMin": 0.85,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "AI & Machine Learning Services",
+      "tier": "core",
+      "queryStyle": "corporate",
+      "tags": ["acronym", "ai"]
+    }
+  ]
+}

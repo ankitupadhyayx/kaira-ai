@@ -1,0 +1,37 @@
+{
+  "domain": "services",
+  "version": "1.0.0",
+  "description": "Core software development and consulting services",
+  "entities": [
+    {
+      "entityId": "ENT_SVC_MOBILE",
+      "type": "services",
+      "name": "Mobile App Development",
+      "canonical": "mobile app development",
+      "aliases": ["mobile development", "mobile apps", "ios development", "android development"],
+      "category": "engineering",
+      "attributes": { "platforms": ["ios", "android"] },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_SVC_AI",
+      "type": "services",
+      "name": "AI & ML Development",
+      "canonical": "ai and ml services",
+      "aliases": ["ai development", "machine learning engineering", "generative ai", "llm development"],
+      "category": "ai",
+      "attributes": { "focus": ["llm", "generative-ai", "nlp"] },
+      "confidence": 1.0
+    },
+    {
+      "entityId": "ENT_SVC_BLOCKCHAIN",
+      "type": "services",
+      "name": "Blockchain & Web3 Engineering",
+      "canonical": "blockchain engineering",
+      "aliases": ["blockchain development", "web3 solutions", "smart contract audit"],
+      "category": "blockchain",
+      "attributes": { "tech": ["ethereum", "solidity", "polygon"] },
+      "confidence": 1.0
+    }
+  ]
+}

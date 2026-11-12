@@ -1,0 +1,119 @@
+[
+  {
+    "identity": {
+      "id": "KND_SUPP_DESK_001",
+      "slug": "24-7-technical-helpdesk-and-support-portal",
+      "domain": "support",
+      "category": "helpdesk",
+      "subcategory": "maintenance"
+    },
+    "content": {
+      "title": "Mobiloitte 24/7 Technical Helpdesk & Client Support Portal",
+      "short_summary": "24/7 technical support, SLA maintenance, server uptime monitoring, and ticketing portal.",
+      "detailed_description": "Mobiloitte's Support Practice delivers 24/7 technical assistance for deployed mobile apps, web applications, cloud servers, and blockchain infrastructure. Clients access dedicated ticket tracking, critical P1 bug resolution within 2 hours, and 99.9% server uptime SLAs.",
+      "highlights": [
+        "24/7 / 365 Global Technical Support Center",
+        "P1 Critical Issue Response Time: < 2 Hours SLA",
+        "Support Portal: https://support.mobiloitte.com",
+        "Support Email: support@mobiloitte.com | Hotline: +91-9999525501"
+      ],
+      "examples": [
+        "How do I submit a technical support ticket?",
+        "Mobiloitte customer support SLA"
+      ],
+      "notes": ["Master support record"]
+    },
+    "search": {
+      "aliases": [
+        "support portal",
+        "helpdesk portal",
+        "mobiloitte support desk",
+        "technical helpdesk",
+        "ticket support"
+      ],
+      "synonyms": [
+        "customer care desk",
+        "service helpdesk"
+      ],
+      "abbreviations": [
+        "supp",
+        "sla"
+      ],
+      "keywords": [
+        "support",
+        "helpdesk",
+        "ticket",
+        "sla",
+        "maintenance",
+        "uptime",
+        "support@mobiloitte.com"
+      ],
+      "search_phrases": [
+        "how do i submit a support ticket to mobiloitte",
+        "mobiloitte technical support desk"
+      ],
+      "common_user_questions": [
+        "How to contact technical support?"
+      ],
+      "misspellings": [
+        "suport",
+        "helpesk"
+      ],
+      "hinglish_variants": [
+        "support ticket kaise raise karein",
+        "helpdesk number kya hai"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "Support Email",
+        "Security Policy"
+      ],
+      "related_domains": [
+        "contact",
+        "support"
+      ],
+      "related_ids": [
+        "KND_CNT_SUPP_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "support"
+      ],
+      "department_tags": [
+        "helpdesk"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/contact-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]

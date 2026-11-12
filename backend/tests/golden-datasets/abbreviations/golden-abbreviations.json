@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "category": "abbreviations",
+  "description": "Golden evaluation dataset for abbreviation resolution test cases",
+  "entries": [
+    {
+      "id": "ABB_001",
+      "input": "Need dev and tech info",
+      "expectedNormalizedQuery": "need development and technology information",
+      "expectedIntent": "SERVICE.WEB",
+      "expectedEntities": ["Development", "Technology"],
+      "expectedConfidenceMin": 0.75,
+      "expectedConfidenceMax": 1.00,
+      "expectedClarification": null,
+      "expectedFallback": null,
+      "expectedPriority": 2,
+      "expectedResponseCategory": "Web Application Development",
+      "tier": "core",
+      "queryStyle": "informal",
+      "tags": ["abbreviation", "engineering"]
+    }
+  ]
+}

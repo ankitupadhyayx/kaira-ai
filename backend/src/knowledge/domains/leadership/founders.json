@@ -1,0 +1,117 @@
+[
+  {
+    "identity": {
+      "id": "KND_LEAD_FOUNDER_001",
+      "slug": "mobiloitte-founders",
+      "domain": "leadership",
+      "category": "founders",
+      "subcategory": "founding-team"
+    },
+    "content": {
+      "title": "Mobiloitte Founders & Visionary Leadership",
+      "short_summary": "Mobiloitte was founded in 2004 by technology entrepreneur Jagdish Harsh.",
+      "detailed_description": "Founded in 2004 in New Delhi, India by Jagdish Harsh, Mobiloitte was established to pioneer mobile application engineering and enterprise software services. The founding vision was to build an agile technology engineering company that transforms complex business challenges into scalable digital software.",
+      "highlights": [
+        "Founded by Jagdish Harsh in 2004",
+        "Pioneered early Symbian, BlackBerry, and iOS mobile software",
+        "Grew into a global enterprise with 500+ technology professionals"
+      ],
+      "examples": [
+        "Who founded Mobiloitte?",
+        "Who is the founder of Mobiloitte?"
+      ],
+      "notes": ["Founders record"]
+    },
+    "search": {
+      "aliases": [
+        "mobiloitte founder",
+        "company founder",
+        "founding team",
+        "who founded mobiloitte"
+      ],
+      "synonyms": [
+        "company creator",
+        "originator",
+        "promoter"
+      ],
+      "abbreviations": [
+        "fnd"
+      ],
+      "keywords": [
+        "founder",
+        "founders",
+        "founding",
+        "jagdish",
+        "harsh",
+        "established",
+        "2004"
+      ],
+      "search_phrases": [
+        "who is the founder of mobiloitte",
+        "who founded mobiloitte company"
+      ],
+      "common_user_questions": [
+        "Who founded Mobiloitte?"
+      ],
+      "misspellings": [
+        "funder",
+        "foundr"
+      ],
+      "hinglish_variants": [
+        "mobiloitte ko kisne banaya tha",
+        "mobiloitte ke founder kaun hain"
+      ],
+      "plural_forms": [],
+      "singular_forms": []
+    },
+    "relationships": {
+      "related_topics": [
+        "CEO Profile",
+        "Company History"
+      ],
+      "related_domains": [
+        "leadership",
+        "company"
+      ],
+      "related_ids": [
+        "KND_LEAD_CEO_001"
+      ],
+      "parent_id": null,
+      "children_ids": []
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "created_at": "2026-07-30T12:00:00.000Z",
+      "updated_at": "2026-07-30T12:00:00.000Z",
+      "created_by": "system",
+      "updated_by": "system",
+      "language": "en",
+      "region": "global",
+      "source": "official",
+      "confidence": 1.0,
+      "priority": 1
+    },
+    "status": "active",
+    "tags": {
+      "technology_tags": [],
+      "business_tags": [
+        "founders"
+      ],
+      "department_tags": [
+        "executive"
+      ],
+      "industry_tags": [
+        "it"
+      ]
+    },
+    "references": {
+      "official_references": [
+        "https://www.mobiloitte.com/about-us"
+      ],
+      "documentation_urls": [],
+      "internal_references": [],
+      "external_references": []
+    },
+    "future_expansion": {}
+  }
+]
